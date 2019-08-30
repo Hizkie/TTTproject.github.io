@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	</script>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <link rel="stylesheet" type="text/css" href="style/home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script/1.js"></script> 
+
+  <title>Home</title>
+  <script type="text/javascript">
+
+// Works with $.get too!
+function set_page(item){
+  
+}
+ function change_css(item){
+          var content = document.getElementById("Iframe");
+         
+
+         //var theme = content.contentWindow.document.getElement
+        //frame.contentWindow.postMessage(/*any variable or object here*/, '*');     
+   }
+
+
+  </script>
+ </head>
+ <body style="">
+ 	<header> 
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-2">
+    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Pages
+
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="docs/bloomberg/index.html" onclick="set_page('docs/bloomberg/index.html') "target="targetframe">Bloomberg</a></li>
+      <li><a href="docs/harpers/Harpers_Final.html" target="targetframe">Harpers</a></li>
+      <li><a href="docs/huffington/Huffington_Final.html" target="targetframe">Huffington</a></li>
+      <li><a href="docs/thecut/thecut.html" target="targetframe">The Cut</a></li>
+      <li><a href="docs/tls/TimesLiterarySupplement_Final.html" target="targetframe">TLS</a></li>
+    </ul>
+  </div>
+    </div>
+    <div class="col-sm-2">
+
+    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Style
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#" onclick= "change_css('style/ancient.css')">I</a></li>
+
+      <li><a href="#">II</a></li>
+      <li><a href="#">III</a></li>
+      <li><a href="#">IV</a></li>
+      <li><a href="#">V</a></li>
+      <li><a href="#">VI</a></li>
+    </ul>
+  </div></div>
+    <div class="col-sm-5">
+      <div id="menu">
+    <ul> 
+      <li><a>Disclaimner</a></li>
+      <li><a>Documentation</a></li>
+      <li><a>About</a></li>
+      <li><a id="active">Cover</a></li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+
+  </header>
+
+ <div id="content">
+    <iframe src="docs/bloomberg/index.html" width="100%" height="100%" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
+    </iframe>
+
+  </div>
+
+ <!-- <div class="container" id="dr1">
+   <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Pages
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+   <div class="container" id="dr2">
+   <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Style
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</div>
+ -->
+  <!--<div id="nav">
+ 		
+ 		<!-- <div id="mySidebar" class="sidebar">
+ 		 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+ 		<p>Documents</p>
+ 		<ul>
+    <li><a href="/home/hizkiel/Desktop/DHDK/web/project/docs/bloomberg/index.html">Bloomberg</a></li>
+ 		<li>Harper</li>
+ 		<li>Huffington</li>
+ 		<li>The cut</li>
+ 		<li>TLS</li>
+ 		</ul>
+ 		<p>Styles</p>
+ 		<ul>     
+ 		<li <a onclick="swipe_css('/home/hizkiel/Desktop/DHDK/web/project/style/ancient.css')">I</a></li>
+		<li>II</li>
+ 		<li>III</li>
+ 		<li>IV</li>
+ 		<li>V</li>
+ 		<li>VI</li>
+ 		</ul>
+  </div>
+    <ul>
+    <li><a href="/home/hizkiel/Desktop/DHDK/web/project/docs/bloomberg/index.html">A</a></li>
+    <li><i class="fa fa-search"></i></li>
+    <li>Huffington</li>
+    <li>The cut</li>
+    <li>TLS</li>
+    </ul>
+ 	</div>-->
+ 
+  <!-- <div id="rnav">
+  </div> -->
+ </body>
+ <script type="text/javascript">
+ function swipe_css(sheet){
+          document.getElementById('style').setAttribute('href', item)
+  }
+
+ </script>
+</html>

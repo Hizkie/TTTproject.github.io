@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display=swap');
+
+html {
+    height: 100%;
+}
+body{
+background-image: linear-gradient( #2F87BF, #b5d1ff) !important;
+ height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+content{
+  width: 100%;
+  height: 100%;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #2F87BF;
+
+	color: white;
+
+}
+ul{
+	list-style: none;
+}
+header ul li{
+	float: right;
+}
+header li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Raleway;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+   background-color: #2B79AB;
+   cursor: pointer; 
+   text-decoration: none;
+
+}
+/*.glyphicon 
+{
+margin-top: 1%;
+color: white !important;
+}*/
+/*#nav{
+	width: 15%;
+	background-color: #000000;
+	color: white !important;
+	-webkit-font-smoothing: antialiased;
+}
+#nav li:hover{
+	background-color: #7c7e82;
+	cursor: pointer;
+	text-decoration: none;
+}
+#nav ul li{
+  display: block;
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+
+}
+#active{
+	background-color:  #2B79AB
+}
+#nav a{
+	margin-left: 30;
+	text-decoration: underline;
+	font-weight: bold;
+	display: block;
+  	color: white;
+  	 text-decoration: none;
+  	font-family: Raleway;
+}
+#nav a:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+  	/* 
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  /*width: 0; /* 0 width - change this with JavaScript */
+  /*position: fixed; /* Stay in place */
+  /*z-index: 1; /* Stay on top */
+  /*?8top: 0;
+ /* left: 0;
+  /*background-color: #111; /* Black*/
+ /* overflow-x: hidden; /* Disable horizontal scroll */
+  /*padding-top: 60px; /* Place content 60px from the top */
+  /*transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar 
+}
+
+
+/* Position and style the close button (top right corner) 
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar 
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+/*main content *
+.main{
+	text-align: center;
+	margin-top: 200px;
+	margin-left: 300px;
+	margin-right: 100px;
+	position: fixed !important;
+	color: white;
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+ font-style: italic;
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .main {position: fixed;}
+
+}*/

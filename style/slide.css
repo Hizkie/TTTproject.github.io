@@ -1,0 +1,93 @@
+body{
+                color: black;
+            }
+            p{
+                display: none
+            }
+            header{
+                display: none;
+            }
+            figure{
+                display: none;
+            }
+            h4{
+                display: none;
+            }
+            body{
+                background-image: url()
+            }
+            q{
+                display: none;
+            }
+            #btn1{
+                height: 100%
+                background-color: gray;
+            }
+            #TableA{
+                background-color: black;
+                color: #4CC3EB;
+                height: 100%;
+            }
+            #vid{
+                background-color: red;
+                margin-top: 3%;
+                width: 100%;
+                height: 100%;
+                color: black;
+                display: block;
+                width: 80%;
+                background-color: blue;
+                height: 450px;
+                width: 900px;
+                margin-left: 15%;
+            }
+            #headerVd{
+                width: inherit;
+                height: 50px;
+                background-color: gray;
+            }
+            #bodyvid{
+                padding: 3%;
+                width: inherit;
+                height: 450px;
+                background-color: black;
+                color: #4CC3EB;
+                font-family: 'Dancing Script', cursive;
+                font-size: 17px;
+                line-height: 1.5;
+                text-align: center;
+
+
+            }
+            #footerid{
+                width: inherit;
+                height: 50px;
+                background-color: gray;
+            }
+
+            #clicks{
+                color: black;
+            }
+            .glyphicon{
+                cursor: pointer;
+                font-size: 40px;
+            }
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 3%;
+                width: 50%;
+                height: 70%;
+            }
+
+
+the lsit of interactions and sentiment analsysis, sample of all the paragrapph in which the main character intarct
+
+
+frodo gandalf
+frodo sam
+frodo sauron 
+gandalf sam
+gandalf sauron
+sam sauron
