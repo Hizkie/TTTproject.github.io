@@ -347,6 +347,10 @@ function appendev(){
         			say = "Bonjour";
         			voice = "French Female";
         			break;
+    			case 'it':
+        			say = "Davide è un bravo ragazzo";
+        			voice = "French Female";
+        			break;
    		 		default:
         			say = "Hello";
         			voice = "UK English Male";
