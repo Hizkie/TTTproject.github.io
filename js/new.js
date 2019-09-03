@@ -524,11 +524,7 @@ function goback(){
         			say = "Bonjour";
         			voice = "French Female";
         			break;
-   		 		default:
-        			say = "Hello";
-        			voice = "UK English Female";
-        			break;
-					
+   		 		
 					}
 				responsiveVoice.enableEstimationTimeout = false;
 				setTimeout(responsiveVoice.speak(say, voice, {onend: yourCallbackGoesHere, rate: rate_value}),);
