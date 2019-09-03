@@ -340,20 +340,20 @@ function appendev(){
         			voice = "UK English Female";
         			break;
     			case 'es':
-        			say = "Hola";
-        			voice = "Spanish Female";
+        			say = all[m];
+        			voice = "UK English Female";
         			break;
     			case 'fr':
-        			say = "Bonjour";
-        			voice = "French Female";
+        			say = all[m];
+        			voice = "UK English Female";
         			break;
     			case 'it':
-        			say = "Davide è un bravo ragazzo";
-        			voice = "French Female";
+        			say = all[m];
+        			voice = "UK English Female";
         			break;
    		 		default:
-        			say = "Hello";
-        			voice = "UK English Male";
+        			say = all[m];
+        			voice = "UK English Female";
         			break;
 					
 					}
