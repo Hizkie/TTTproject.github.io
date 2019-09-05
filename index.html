@@ -24,7 +24,10 @@
 // Works with $.get too!
 
  function change_css(item){
-window.location.href = item
+     var content = document.getElementById("Iframe");
+
+     var theme = content.contentWindow.document.getElementById("style")
+     theme.setAttribute("href", "../../../css/" + input.name + ".css");
 
    }
 
