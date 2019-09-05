@@ -24,9 +24,8 @@
 // Works with $.get too!
 
  function change_css(item){
-  var $head = $("#Iframe").contents().find("head"); 
-var url = item;
-$head.append($("<link/>", { rel: "stylesheet", href: url, type: "text/css" } ));
+window.location.href = item
+
    }
 
 
