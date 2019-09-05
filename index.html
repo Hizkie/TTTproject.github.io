@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+	</script>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
  <link rel="stylesheet" type="text/css" href="style/home.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -15,16 +16,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="script/1.js"></script>
-  <script src="js/home.js"></script> 
-
+  <script type="text/javascript" src="script/1.js"></script> 
 
   <title>Home</title>
-  <script>
+  <script type="text/javascript">
 
 // Works with $.get too!
 
+ function change_css(item){
+          alert("WTF")
+          //var content = document.getElementById("Iframe");
+         
 
+         //var theme = content.contentWindow.document.getElement
+        //frame.contentWindow.postMessage(/*any variable or object here*/, '*');     
+   }
 
 
   </script>
@@ -40,7 +46,7 @@
 
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="docs/bloomberg/index.html" onclick="set_page('docs/bloomberg/index.html')" target="targetframe">Bloomberg</a></li>
+      <li><a href="docs/bloomberg/index.html" onclick="set_page('docs/bloomberg/index.html') "target="targetframe">Bloomberg</a></li>
       <li><a href="docs/harpers/Harpers_Final.html" target="targetframe">Harpers</a></li>
       <li><a href="docs/huffington/Huffington_Final.html" target="targetframe">Huffington</a></li>
       <li><a href="docs/thecut/thecut.html" target="targetframe">The Cut</a></li>
@@ -54,7 +60,7 @@
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Style
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="#" onclick= "change('style/ancient.css')">I</a></li>
+      <li><a href="#" onclick= "change_css('style/ancient.css')">I</a></li>
 
       <li><a href="#">II</a></li>
       <li><a href="#">III</a></li>
@@ -108,7 +114,7 @@
  -->
   <!--<div id="nav">
  		
- 		<div id="mySidebar" class="sidebar">
+ 		<!-- <div id="mySidebar" class="sidebar">
  		 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
  		<p>Documents</p>
  		<ul>
@@ -140,4 +146,10 @@
   <!-- <div id="rnav">
   </div> -->
  </body>
+ <script type="text/javascript">
+ function swipe_css(sheet){
+          document.getElementById('style').setAttribute('href', item)
+  }
+
+ </script>
 </html>
