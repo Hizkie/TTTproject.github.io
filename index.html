@@ -26,12 +26,11 @@
  function change_css(item){
      var content = document.getElementById("Iframe");
 
-     var theme = content.contentWindow.document.getElementById("style")
-//theme.setAttribute("href",item)
+     content.contentWindow.document.getElementById("style").setAttribute("href",item)
      
-     theme.href = item
+     /*theme.href = item
 	var form = content.contentWindow.document.getElementById('myForm');
-	document.getElementById("demo").innerHTML = form.innerText;
+	document.getElementById("demo").innerHTML = form.innerText;*/
  }
   </script>
  </head>
