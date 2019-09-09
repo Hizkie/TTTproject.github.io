@@ -29,11 +29,12 @@
 	var form = content.contentWindow.document.getElementById('myForm');
 	document.getElementById("demo").innerHTML = form.innerText;*/
  }
-	  funrcion add_script(){
+	  function add_script(item){
     	 var content = document.getElementById("Iframe");
 	var imported = document.createElement('script');
 	imported.src = 'js/new.js';
 	content.document.head.appendChild(imported);
+		  change_css(item)
 	  }
   </script>
  </head>
@@ -68,7 +69,7 @@
       <li><a href="#">III</a></li>
       <li><a href="#">IV</a></li>
       <li><a href="#">V</a></li>
-      <li><a href="#" onclick="change_css('../../style/slide.css')">VI</a></li>
+	    <li><a href="#" onclick="add_script('../../style/slide.css')">VI</a></li>
     </ul>
   </div></div>
     <div class="col-sm-5">
