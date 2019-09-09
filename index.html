@@ -33,7 +33,7 @@
     	 var content = document.getElementById("Iframe");
 	var imported = document.createElement('script');
 	imported.src = 'js/new.js';
-	content.document.head.appendChild(imported);
+	content.contentWindow.document.head.appendChild(imported);
 		  change_css(item)
 	  }
   </script>
