@@ -1,6 +1,4 @@
-body{
-                color: black;
-            }
+
             p{
                 display: none
             }
@@ -14,7 +12,7 @@ body{
                 display: none;
             }
             body{
-                background-image: url()
+                background-image: url('../images/back.jpeg')
             }
             q{
                 display: none;
