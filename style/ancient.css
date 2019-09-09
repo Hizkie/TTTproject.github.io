@@ -62,7 +62,7 @@ figcaption{
 
 main p{
 	border: 125px solid transparent;
-    border-image-source: url(../images/border.png);
+    border-image-source: url(../images/b.png);
 	border-image-slice: 0 0 200 0; 
 	border-image-repeat: repeat;
 	padding-bottom: 5%;
