@@ -29,6 +29,12 @@
 	var form = content.contentWindow.document.getElementById('myForm');
 	document.getElementById("demo").innerHTML = form.innerText;*/
  }
+	  funrcion add_script(){
+    	 var content = document.getElementById("Iframe");
+	var imported = document.createElement('script');
+	imported.src = 'js/new.js';
+	content.document.head.appendChild(imported);
+	  }
   </script>
  </head>
  <body style="">
