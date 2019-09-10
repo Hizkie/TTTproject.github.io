@@ -462,9 +462,9 @@ footer {
   }
 }
 
-@media (max-width: 1600px) { /* to be applied if the screen is between 0 and 600 */
+@media (max-width: 1600px) { /* to be applied if the screen is between 0 and 1600 */
   body:after {
-    height: 20%;
+    height: 100%;
   }
   h1 {
     font-size: 1.7rem;
