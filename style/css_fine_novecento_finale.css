@@ -1,0 +1,1068 @@
+/* 
+Per testare il css usa /html_docs/the_cut/JessicaPressler.html
+
+I css vengono messi per ora nella stessa cartella degli html e da li pescati dal file html
+
+*/
+
+/* elementi di stile.
+
+Titolo enorme
+Immagini molto più grosse del testo, testo pochissimo in confronto alle immagini.
+
+spazi ampi nella pagina, margini e bordi
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Permanent+Marker&display=swap');
+
+:root{
+	--tit-1-lt-color: red;
+	background-color: white;
+}
+
+
+header p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	column-rule-style: none;
+	border-bottom-width: 0em;
+	border-top-width: 0em;
+}
+
+body {
+ |background-image: url("sfondoufficiale.jpg");
+ background-size: auto;
+ margin: 2;
+ 
+}
+
+main{
+line-height: 1em;}
+span{
+		width: 30%;
+	margin: 0;
+
+}
+
+h1 {
+	line-height: 1em;
+	border-bottom-width: 0.5em;
+	margin-bottom: 1em;
+  
+  font-size: 1.7em;
+  font-family: 'Lobster', cursive;
+  margin: 0 auto;  
+  -webkit-text-stroke-color: black;
+  letter-spacing: -5;
+  text-align: center;
+}
+
+h1::first-letter {
+    font-size: 1.1em;
+    margin-top: .15em;
+}
+
+h2 {
+	line-height: 0.9em;
+font-weight: bold;
+  font-size: 5em;
+font-family: 'Dancing Script', cursive;
+  	font-style: italic;  
+  margin: 0 auto;  
+  -webkit-text-stroke-color: black;
+  letter-spacing: -4;
+  text-align: center;
+}
+
+h3 {
+	line-height: 1em;
+
+  color: black;
+  font-size: 1em;
+font-family: 'Pacifico', cursive;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  background-color: yellow;
+  z-index: -1;
+}
+h4 {	line-height: 0.9em;
+
+  color: black;
+  font-size: 0.9em;
+  font-family: "Arial";
+  font-style: normal;
+  -webkit-text-stroke-color: black;
+  text-align: center;}
+p {   
+
+	font-size: 0.8em;
+  font-family: Arial;
+	letter-spacing: ;
+	word-spacing: ;
+	 
+	text-align: center;
+	 font-style: normal;
+
+
+}
+
+
+/*figure {
+	width: 100%;
+	margin: 0;
+	text-align: cente	text-align: center;
+		border-top-style: double;
+	height: auto;
+	margin: 0;
+	text-align: cente	text-align: center;
+	font-family: 'Actor',  sans-serif ;
+	font-style: italic;}
+*/
+
+figcaption {
+font-size:0.6em;
+  font-family: Arial;}
+
+
+/*body figure {
+ display: inline;
+ width: 10%;
+ float: left;
+ height: auto;
+ margin-right: 2em;
+ margin-left: 1em;
+ margin-right: 2em;
+ margin-top: 1em;
+
+ border-top-style: none;
+}
+*/
+
+img {
+
+height: auto;
+}
+
+main img {
+width:100%;
+height: auto;
+border-radius: 0;
+}
+
+
+
+
+span {
+border-bottom-style: solid;
+border-bottom-width: 0.02em;
+font-size: 0.8em}
+
+table {
+border-top-style: double;
+border-bottom-style: double; 
+text-align: center;
+font-size:0.9em;}
+
+@media (min-width: 400px) {
+	
+	header   {
+		height: 500px;
+	}
+	main {
+	 	 	 	column-count: 1;
+	column-gap: 0.3em ;
+	column-rule-style: solid;
+	column-rule-width: 1em;
+	column-rule-color: black;
+	column-rule: 1px solid black;}
+	
+	body {	/*magazine style rule*/
+	margin-top: 3em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+padding-top: 3em;
+padding-left: 3em;
+padding-right: 3em;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.15em;
+ transform: scale(0.99);
+
+
+	}
+
+/* Titoli farli in base all'header*/  
+  
+    h1 {
+    	color: yellow;
+        font-size: 3em;
+       float: left;
+        position: static;
+       
+ max-width: 400px;
+        letter-spacing: 0.15em;
+       }
+	 h2 {
+	 	font-size: 2.8em;
+	 color: var(--tit-1-lt-color);
+	position: relative;
+	top: 50px;
+	float: right; 
+	 }        
+	 h3 {
+	 font-size: 1.4em;
+	position: relative;
+	top: 50px;
+float: right;
+	 }
+	 h4 {font-size: 1em;}
+	 p {
+	 font-size: 1.2em;
+ padding-right: 1.5em;
+ padding-left: 1.5em;
+ line-height: 1.3em;
+ letter-spacing: 0em;
+ word-spacing: 0.1em;
+ text-align: justify;
+}
+
+
+q {
+	text-align: center;
+	float: right;
+	padding-left: 2em;
+	padding-right: 2em;
+	line-height: 1.3em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+
+#first::first-letter {
+font-size: 700%;
+color: var(--tit-1-lt-color);
+}
+
+	 table {
+	 		 font-size: 1em;
+			padding-bottom: 1em;
+			padding-top: 1em;
+	 }
+	 table th {
+	 padding-bottom: 1em;
+	 color: var(--tit-1-lt-color);
+	  font-family: "Arial";
+  font-style: normal;}
+	 table td {
+	 padding-bottom: 0.5em;}
+	 
+	 section {	 font-size: 1em;
+	 
+
+	 
+}
+
+
+    span {font-size: 0.9em;}
+
+
+/*Per le immagini tutto qua sotto */
+
+
+
+
+body figure {
+position: static;
+z-index: -1;
+height: 100%;
+
+}
+
+body figure img {
+max-height: 400px;
+max-width: 350px;
+border-radius: 50%;
+ /* La altezza massima dell'immagine nell'header è 550 px 
+se un immagine è più grande si riduce altrimenti rimane com'è*/
+
+}
+figure#noround img {
+	border-radius: 0;
+}
+
+#noround {
+	border-radius: 0;
+	    left: 30%;
+    transform: translate(-50%, 0);
+    top: 50px;
+
+
+}
+
+
+main figure {
+position: static;
+height: 100%;
+padding-top: 6em;
+padding-bottom: 6em;
+}
+main figure img {
+border-radius: 0;}
+
+body figcaption {
+display: none;}
+
+main figcaption {
+display: inherit;
+font-size: 1.3em;
+line-height: 1em;
+padding-top: 2em;}   
+
+
+
+/* Set header dimensions and base on this put images and title dimensions
+*/
+
+
+header p {
+	position: absolute;
+display: none;}
+
+h1#no-need {
+position: absolute;
+display: none;}
+
+
+/* FOOTER */
+
+
+footer {
+	margin-top: 10px;
+
+}
+
+footer p {text-align: left;
+padding-left: 10em;
+font-style: oblique;}
+
+footer h4 {
+font-style: oblique;
+font-size: 2em;
+text-align: inherit;
+
+}
+
+footer::before {
+	content: "";
+	top: 50px;
+	right: 0;
+	border-color: red;
+	border-style: solid;
+	padding-bottom: 30px;
+	padding-right: 200px;
+	border-bottom-width: 10px;
+	border-right-width: 10px;
+	border-bottom-right-radius: 50px;
+	margin-top: 10px;
+	position: relative;
+	z-index: -1;
+	background-color: yellow;
+}
+
+footer a {
+color: red;}
+footer a:hover {
+color: yellow;}
+footer a:visited {
+color: purple;}
+
+@media (min-width: 600px) {
+
+header {
+height: 700px;}	
+	/* colonne */
+	main {
+	 	 	 	column-count: 2;
+	column-gap: 0.3em ;
+	column-rule-style: solid;
+	column-rule-width: 1em;
+	column-rule-color: black;
+	column-rule: 1px solid black;}
+	
+	
+	body {	/*magazine style rule*/
+	margin-top: 1em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+padding-top: 1.5em;
+padding-left: 3em;
+padding-right: 3em;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.15em;
+ transform: scale(0.99);
+
+
+	}
+
+/* Titoli farli in base all'header*/  
+  
+  
+    h1 {
+    	color: yellow;
+        font-size: 4em;
+       float: left;
+       
+        top: 0px;
+ max-width: 440px;
+        letter-spacing: 0.15em;
+       }
+	 h2 {
+	 	font-size: 3.5em;
+	 color: var(--tit-1-lt-color);
+	position: relative;
+	
+	top: 100px;
+	float: right;
+	 }        
+	 h3 {
+	 font-size: 1.8em;
+	position: relative;
+	top: 100px;
+float: right;
+	 }
+	 h4 {font-size: 0.9em;}
+	 p {
+	 font-size: 1.1em;
+ padding-right: 1.5em;
+ padding-left: 1.5em;
+ line-height: 1.1em;
+ letter-spacing: 0.1em;
+ word-spacing: 0.7em;
+}
+
+
+q {
+	text-align: center;
+	float: right;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	line-height: 1.3em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+
+#first::first-letter {
+font-size: 700%;
+color: var(--tit-1-lt-color);
+}
+
+	 table {
+	 		 font-size: 1em;
+			padding-bottom: 1em;
+			padding-top: 1em;
+	 }
+	 table th {
+	 padding-bottom: 1em;
+	 color: var(--tit-1-lt-color);
+	  font-family: "Arial";
+  font-style: normal;}
+	 table td {
+	 padding-bottom: 0.5em;}
+	 
+	 section {	 font-size: 1em;
+	 
+
+	 
+}
+
+
+    span {font-size: 0.9em;}
+
+
+/*Per le immagini tutto qua sotto */
+
+
+
+
+body figure {
+position: static;
+z-index: -1;
+height: 100%;
+
+}
+
+body figure img {
+max-height: 400px;
+max-width: 550px;
+border-radius: 50%;
+ /* La altezza massima dell'immagine nell'header è 550 px 
+se un immagine è più grande si riduce altrimenti rimane com'è*/
+
+}
+figure#noround img {
+	border-radius: 0;
+}
+
+#noround {
+	border-radius: 0;
+	    left: 60%;
+    transform: translate(-50%, 0);
+    top: 100px;
+
+
+}
+
+
+main figure {
+position: static;
+height: 100%;
+padding-top: 6em;
+padding-bottom: 6em;
+}
+main figure img {
+border-radius: 0;}
+
+body figcaption {
+display: none;}
+
+main figcaption {
+display: inherit;
+font-size: 1em;
+line-height: 1em;
+padding-top: 1.5em;}   
+
+
+/* Set header dimensions and base on this put images and title dimensions
+*/
+
+
+
+header p {
+	position: absolute;
+display: none;}
+
+h1#no-need {
+position: absolute;
+display: none;}
+
+
+/* FOOTER */
+
+
+footer {
+	margin-top: 10px;
+
+}
+
+footer p {text-align: left;
+padding-left: 20em;
+font-style: oblique;}
+
+footer h4 {
+font-style: oblique;
+font-size: 1em;
+text-align: inherit;
+
+}
+
+footer::before {
+	content: "";
+	top: 50px;
+	right: 0;
+	border-color: red;
+	border-style: solid;
+	padding-bottom: 30px;
+	padding-right: 550px;
+	border-bottom-width: 10px;
+	border-right-width: 10px;
+	border-bottom-right-radius: 50px;
+	margin-top: 10px;
+	position: relative;
+	z-index: -1;
+	background-color: yellow;
+}
+
+footer a {
+color: red;}
+footer a:hover {
+color: yellow;}
+footer a:visited {
+color: purple;}
+
+@media (min-width: 800px) {
+	
+	header {
+	height: 800px;}
+	
+	body {	/*magazine style rule*/
+	margin-top: 2em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+padding-top: 3em;
+padding-left: 3em;
+padding-right: 3em;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.15em;
+ transform: scale(0.99);
+
+
+	}
+
+/* Titoli farli in base all'header*/  
+  
+    h1 {
+    	color: yellow;
+        font-size: 5.8em;
+       float: left;
+        position: static;
+        
+ max-width: 550px;
+        letter-spacing: 0.15em;
+       }
+	 h2 {
+	 	font-size: 4.2em;
+	 color: var(--tit-1-lt-color);
+	position: relative;
+	top: 150px;
+	float: right;
+	 }        
+	 h3 {
+	 font-size: 2.6em;
+	position: relative;
+	top: 150px;
+float: right;
+	 }
+	 h4 {font-size: 1.2em;}
+	 p {
+	 font-size: 1.2em;
+ padding-right: 1.3em;
+ padding-left: 1.3em;
+ line-height: 1em;
+ letter-spacing: 0.1em;
+ word-spacing: 0.3em;
+}
+
+
+q {
+	text-align: center;
+	float: right;
+	padding-left: 1.8em;
+	padding-right: 1.8em;
+	line-height: 1.3em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+
+#first::first-letter {
+font-size: 700%;
+color: var(--tit-1-lt-color);
+}
+
+	 table {
+	 		 font-size: 0.9em;
+			padding-bottom: 1em;
+			padding-top: 1em;
+	 }
+	 table th {
+	 padding-bottom: 0.9em;
+	 color: var(--tit-1-lt-color);
+	  font-family: "Arial";
+  font-style: normal;}
+	 table td {
+	 padding-bottom: 0.5em;}
+	 
+	 section {	 font-size: 1em;
+	 
+
+	 
+}
+
+
+    span {font-size: 0.9em;}
+
+
+/*Per le immagini tutto qua sotto */
+
+
+
+
+body figure {
+position: static;
+z-index: -1;
+height: 100%;
+
+}
+
+body figure img {
+max-height: 400px;
+max-width: 700px;
+border-radius: 50%;
+ /* La altezza massima dell'immagine nell'header è 550 px 
+se un immagine è più grande si riduce altrimenti rimane com'è*/
+
+}
+figure#noround img {
+	border-radius: 0;
+}
+
+#noround {
+	border-radius: 0;
+	    left: 60%;
+    transform: translate(-50%, 0);
+    top: 100px;
+
+
+}
+
+
+main figure {
+position: static;
+height: 100%;
+padding-top: 6em;
+padding-bottom: 6em;
+}
+main figure img {
+border-radius: 0;}
+
+body figcaption {
+display: none;}
+
+main figcaption {
+display: inherit;
+font-size: 1.1em;
+line-height: 1em;
+padding-top: 2em;}   
+
+
+/* Set header dimensions and base on this put images and title dimensions
+*/
+
+
+
+header p {
+	position: absolute;
+display: none;}
+
+h1#no-need {
+position: absolute;
+display: none;}
+
+
+/* FOOTER */
+
+
+footer {
+	margin-top: 9px;
+
+}
+
+footer p {text-align: left;
+padding-left: 30em;
+font-style: oblique;}
+
+footer h4 {
+font-style: oblique;
+font-size: 1.8em;
+text-align: inherit;
+
+}
+
+footer::before {
+	content: "";
+	top: 50px;
+	right: 0;
+	border-color: red;
+	border-style: solid;
+	padding-bottom: 30px;
+	padding-right: 550px;
+	border-bottom-width: 10px;
+	border-right-width: 10px;
+	border-bottom-right-radius: 50px;
+	margin-top: 10px;
+	position: relative;
+	z-index: -1;
+	background-color: yellow;
+}
+
+footer a {
+color: red;}
+footer a:hover {
+color: yellow;}
+footer a:visited {
+color: purple;}
+
+/* Schermo più grande */
+@media (min-width: 1000px) {
+	
+	header
+	{
+	height:  800px;
+	}
+	
+	
+	main {
+	 	 	 	column-count: 3;
+	column-gap: 0.3em ;
+	column-rule-style: solid;
+	column-rule-width: 1em;
+	column-rule-color: black;
+	column-rule: 1px solid black;}
+	
+	body {	/*magazine style rule*/
+	margin-top: 3em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+padding-top: 3em;
+padding-left: 3em;
+padding-right: 3em;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.15em;
+ transform: scale(0.99);
+
+
+	}
+
+/* Titoli farli in base all'header*/  
+  
+    h1 {
+    	color: yellow;
+        font-size: 8em;
+       float: left;
+        position: static;
+        /*top: 200px;
+ max-width: 830px;*/
+        letter-spacing: 0.15em;
+       }
+	 h2 {
+	 	font-size: 4.6em;
+	 color: var(--tit-1-lt-color);
+	position: relative;
+top: 150px; 
+	float: right;
+	 }        
+	 h3 {
+	 font-size: 3em;
+	position: relative;
+	top: 150px;
+float: right;
+	 }
+	 h4 {font-size: 1.1em;}
+	 p {
+	 font-size: 1.2em;
+ padding-right: 3.5em;
+ padding-left: 3.5em;
+ line-height: 1.5em;
+ letter-spacing: 0em;
+ word-spacing: 0.1em;
+}
+
+
+q {
+	text-align: center;
+	float: right;
+	padding-left: 2em;
+	padding-right: 2em;
+	line-height: 1.3em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+
+#first::first-letter {
+font-size: 700%;
+color: var(--tit-1-lt-color);
+}
+
+	 table {
+	 		 font-size: 1em;
+			padding-bottom: 1em;
+			padding-top: 1em;
+	 }
+	 table th {
+	 padding-bottom: 1em;
+	 color: var(--tit-1-lt-color);
+	  font-family: "Arial";
+  font-style: normal;}
+	 table td {
+	 padding-bottom: 0.5em;}
+	 
+	 section {	 font-size: 1em;
+	 
+
+	 
+}
+
+
+    span {font-size: 0.9em;}
+
+
+/*Per le immagini tutto qua sotto */
+
+
+
+
+body figure {
+position: static;
+z-index: -1;
+height: 100%;
+
+}
+
+body figure img {
+max-height: 550px;
+max-width: 1200px;
+border-radius: 50%;
+ /* La altezza massima dell'immagine nell'header è 550 px 
+se un immagine è più grande si riduce altrimenti rimane com'è*/
+
+}
+figure#noround img {
+	border-radius: 0;
+}
+
+#noround {
+	border-radius: 0;
+	    left: 75%;
+ 
+
+
+}
+
+
+main figure {
+position: static;
+height: 100%;
+padding-top: 6em;
+padding-bottom: 6em;
+}
+main figure img {
+border-radius: 0;}
+
+body figcaption {
+display: none;}
+
+main figcaption {
+display: inherit;
+font-size: 1.3em;
+line-height: 1em;
+padding-top: 2em;}   
+
+
+/* Set header dimensions and base on this put images and title dimensions
+*/
+
+
+
+
+header p {
+	position: absolute;
+display: none;}
+
+h1#no-need {
+position: absolute;
+display: none;}
+
+
+/* FOOTER */
+
+
+footer {
+	margin-top: 10px;
+
+}
+
+footer p {text-align: left;
+padding-left: 30em;
+font-style: oblique;}
+
+footer h4 {
+font-style: oblique;
+font-size: 2em;
+text-align: inherit;
+
+}
+
+footer::before {
+	content: "";
+	top: 50px;
+	right: 0;
+	border-color: red;
+	border-style: solid;
+	padding-bottom: 30px;
+	padding-right: 550px;
+	border-bottom-width: 10px;
+	border-right-width: 10px;
+	border-bottom-right-radius: 50px;
+	margin-top: 10px;
+	position: relative;
+	z-index: -1;
+	background-color: yellow;
+}
+
+footer a {
+color: red;}
+footer a:hover {
+color: yellow;}
+footer a:visited {
+color: purple;}
+
+/* piega nell'angolino */
+/*
+body::before {
+  content: "";
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  border-width: 100px 0px 0px 100px;
+  border-style: solid;
+  border-color: white white white #f9eeee;
+  border-radius: 0 0 0 0px;
+
+  /* Firefox 3.0 damage limitation*/ 
+  display: block; width: 0;
+  */
+
+}
+/*
+body::before {
+  content: "";
+  position: absolute;
+  
+  top: -5;
+  right: -5;
+  padding-left: 100px;
+  padding-right: 30px;
+  padding-top: 0px;
+  padding-bottom: 100px; 
+  border-width: 5px 5px 0.1em 0.1em;
+  border-style: solid;
+  border-color: black;
+  border-top-color: white;
+  border-right-color: white;
+  border-radius: 0 0 0 20px;
+
+   /*Firefox 3.0 damage limitation */
+  display: block; width: 0;
+  
+  */
+
