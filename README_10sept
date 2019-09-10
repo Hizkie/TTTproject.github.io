@@ -10,6 +10,12 @@ The name of the file report the date of publication. I write here modification t
 
 TODO: 
 1) I saw my css are loaded just for the bloomberg.html file the others are statics
+2) Github cache our css and js files so we need a way to block that else we can't freely work on it.
+   Can this be a solution?:
+   https://github.com/laravel/valet/issues/454
+   
+
+
 
 if you wanna make add some notes use this file, with your name and the hours in the header:
 example 
@@ -18,6 +24,8 @@ I propose this simple system to share changes or information till the project wi
 
 tomorrow we are gonna create a new readme: 
 README_11sept
+
+
 --------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------
 
