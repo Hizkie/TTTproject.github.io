@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sancreek&display=swap');
 
 body {
-  background-image: url("background10.jpg");
+  background-image: url("../images/background10.jpg");
   background-size: contain;
       margin-right: 5%;
   margin-left: 5%;
@@ -477,7 +477,7 @@ footer {
 	}
     header:before {
     width: 80vw;
-    margin-top: -42%;
+    margin-top: -15%;
     margin-bottom: -130px;
   }
   table{font-size:1em;}
