@@ -33,10 +33,10 @@
 	var imported = document.createElement('script');
 	imported.src = 'js/new.js';
 	content.contentWindow.document.head.appendChild(imported);*/
-	var content = document.getElementById("Iframe");
+	 var content = document.getElementById("Iframe");
+     content.contentWindow.document.getElementById("style").setAttribute("href",style)
      	content.contentWindow.document.getElementById("scri").setAttribute("href",script)
-		  alert(script)
-		 change_css(style)
+		  
 	  }
   </script>
  </head>
