@@ -31,7 +31,7 @@ header p {
 }
 
 body {
- background-image: url("sfondoufficiale.jpg");
+ background-image: url("../images/sfondoufficiale.jpg");
  background-size: auto;
  margin: 2;
  
