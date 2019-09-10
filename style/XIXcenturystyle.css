@@ -314,8 +314,8 @@ footer {
   }
   header:before {
     width: 80vw;
-    margin-top: -20%;
-    margin-bottom: -130px;
+    margin-top: -30%;
+    margin-bottom: -100px;
   }
   header:after {
     width: 80vw;
