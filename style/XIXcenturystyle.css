@@ -464,7 +464,7 @@ footer {
 
 @media (max-width: 1600px) { /* to be applied if the screen is between 0 and 1600 */
   body:after {
-    height: 80%;
+    height: 65%;
      width:auto;
   }
   h1 {
