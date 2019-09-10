@@ -28,12 +28,14 @@
 	var form = content.contentWindow.document.getElementById('myForm');
 	document.getElementById("demo").innerHTML = form.innerText;*/
  }
-	  function add_script(item){
-    	 var content = document.getElementById("Iframe");
+	  function add_script(style, script){
+    	 /*var content = document.getElementById("Iframe");
 	var imported = document.createElement('script');
 	imported.src = 'js/new.js';
-	content.contentWindow.document.head.appendChild(imported);
-		 change_css(item)
+	content.contentWindow.document.head.appendChild(imported);*/
+	var content = document.getElementById("Iframe");
+     	content.contentWindow.document.getElementById("scri").setAttribute("href",script)
+		 change_css(style)
 	  }
   </script>
  </head>
@@ -68,7 +70,7 @@
       <li><a href="#">III</a></li>
       <li><a href="#">IV</a></li>
       <li><a href="#">V</a></li>
-	    <li><a href="#" onclick="add_script('../../style/slide.css')">VI</a></li>
+	    <li><a href="#" onclick="add_script('../../style/slide.css','../../js/new.js')">VI</a></li>
     </ul>
   </div></div>
     <div class="col-sm-5">
