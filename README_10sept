@@ -1,0 +1,37 @@
+************************
+* --------------------- 
+* |  CHRISTIAN 18.30  | 
+* --------------------- 
+
+The name of the file report the date of publication. I write here modification to the site.
+
+1) uploaded my two css with name css_fine_novecento_finale.css , css_primo_novecento_finale.css
+2) change index.html file -> i added the button to load my css
+
+TODO: 
+1) I saw my css are loaded just for the bloomberg.html file the others are statics
+
+if you wanna make add some notes use this file, with your name and the hours in the header:
+example 
+DAVIDE 18.55 and dotted lines to conclude the note.
+I propose this simple system to share changes or information till the project will be built
+
+tomorrow we are gonna create a new readme: 
+README_11sept
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+example:
+
+HIZCLICK 18 50
+
+i add some notes
+ -------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+example:
+DAVIDE 19 00 
+
+i add some notes
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
