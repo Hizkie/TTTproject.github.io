@@ -463,28 +463,3 @@ footer {
 }
 
 
-@media (min-width: 1600px) { /* at least 1600 for this rule to be applied */ 
-    h1 {
-        font-size: 6.2rem;
-    }
-    h2 {
-      font-size: 5.3rem;
-    }
-    h3 {
-      font-size: 4rem;
-      }
-    h4 {font-size: 2rem;
-	}
-
-  table{font-size:1em;}
-     section {
-     font-size:0.8em;
-     column-count:2;}
-     img {width:100%;
-     height: auto;}
-      figcaption {font-size: 0.7em;
-        }
-           span {font-size: 0.8em;}
-}
-*/
-
