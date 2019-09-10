@@ -9,11 +9,12 @@ The name of the file report the date of publication. I write here modification t
 2) change index.html file -> i added the button to load my css
 
 TODO: 
+
 1) I saw my css are loaded just for the bloomberg.html file the others are statics
 2) Github cache our css and js files so we need a way to block that else we can't freely work on it.
    Can this be a solution?:
    https://github.com/laravel/valet/issues/454
-   
+3) i will modify css in the index as soon as possbile as i said yesterday   
 
 
 
