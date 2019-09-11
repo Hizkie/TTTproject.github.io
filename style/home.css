@@ -44,10 +44,10 @@
 	}
 }
 @media (min-width: 1000px){		div#btn-sx.col-sm-2{
-	margin-left:150px;}
+	margin-left:0px;}
 	div#btn-dx.col-sm-2{
-	float:right;
-		margin-right:150px;
+	float:left;
+		margin-right:0px;
 	}
 	
 	div.col-sm-5 {
