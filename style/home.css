@@ -19,8 +19,8 @@ div#btn-sx.col-sm-2{
 	div#btn-dx.col-sm-2{
 		max-width:40px;
 
-				left: 0px;
-	top: -20px;
+				left: 160px;
+	top: 0px;
 	}
 }
 @media (min-width:400px){
