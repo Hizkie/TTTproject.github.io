@@ -19,9 +19,9 @@
 	}
 }
 @media (min-width:600px){
-	.col-sm-2#btn-sx{
+	div#btn-sx.col-sm-2{
 	margin-left:150px;}
-	.col-sm-2#btn-dx{
+	div #btn-dx .col-sm2{
 	float:right !important;
 		margin-right:150px !important;
 	}
@@ -32,9 +32,9 @@
 }
 
 @media (min-width: 800px){
-		.col-sm-2#btn-sx{
+		div#btn-sx.col-sm-2{
 	margin-left:150px;}
-	.col-sm-2#btn-dx{
+	div #btn-dx .col-sm2{
 	float:right;
 		margin-right:150px;
 	}
