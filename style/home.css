@@ -5,19 +5,22 @@
 
 @media (min-width: 800px){
 	div.col-sm-5 {
-		width: 30%;	
+		width: 10%;
+		heigth: auto;
 	}
 }
 @media (min-width: 1000px){
 	div.col-sm-5 {
-		width: 30%;	
+		width: 20%;
+		heigth: auto;
 	}
 }
 
 
 @media (min-width: 1200px){
 	div.col-sm-5 {
-		width: 40%;	
+		width: 40%;
+		heigth: auto;
 	}
 }
 
