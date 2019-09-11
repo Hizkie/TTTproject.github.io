@@ -20,7 +20,7 @@
 }
 @media (min-width:600px){
 	header {
-		heigth: auto;
+		height: auto;
 	}
 	div#btn-sx.col-sm-2{
 	margin-left:150px;}
