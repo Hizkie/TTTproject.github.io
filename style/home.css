@@ -30,6 +30,8 @@ header{
 	background-color: #2F87BF;
 
 	color: white;
+}
+header #container {
 	opacity: 0.5;
 }
 #content{
