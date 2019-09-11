@@ -37,8 +37,9 @@
 	div#btn-dx.col-sm-2{
 	float:right;
 		margin-right:150px;
+		bottom:40px;
 	}
-	div.col-sm-5 {
+	div.col-sm-5 {right:200px;
 		width: 80%;
 		height: auto;
 	}
