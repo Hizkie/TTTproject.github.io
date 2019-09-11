@@ -22,8 +22,8 @@
 	div#btn-sx.col-sm-2{
 	margin-left:150px;}
 	div #btn-dx .col-sm2{
-	float:right !important;
-		margin-right:150px !important;
+	float:right;
+		margin-right:150px;
 	}
 	
 	div.col-sm-5 {
