@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display=swap');
 
 
+
+
+
 @media (min-width: 768px){ .col-sm-5{
 		margin-left: 150px;
 		margin-top: 10px
@@ -42,6 +45,7 @@ ul{
 }
 #menu ul li{
 	float: right;
+	transition: 0.5s;
 }
 #menu li a {
   display: block;
@@ -53,11 +57,16 @@ ul{
 
 }
 
+#menu ul:hover li:not(:hover) {
+  opacity: 0.3;
+}
+
 /* Change the link color to #111 (black) on hover */
-#menu li a:hover {
+#menu ul li a:hover {
    background-color: #2B79AB;
    cursor: pointer; 
    text-decoration: none;
+   margin-top: 5px;
 
 }
 /*.glyphicon 
