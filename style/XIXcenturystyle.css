@@ -377,3 +377,29 @@ footer {
     margin: 0;
   }
 }
+
+@media only screen  and (min-width : 1224px) {
+	header:before {
+	margin-top: -12%;
+	margin-bottom: -9%;  }
+
+	figure:after {
+		margin-bottom: -2%;
+	}
+
+	h1:after {
+		margin-top: -10%;
+		margin-bottom: -13%;
+	}
+
+	h2:after {
+	margin-top: -10%;
+	margin-bottom: -13%;
+	}
+
+		h3:after {
+		margin-top: -10%;
+		margin-bottom: -13%;
+	}
+
+}
