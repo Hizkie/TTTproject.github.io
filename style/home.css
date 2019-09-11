@@ -43,7 +43,13 @@
 		height: auto;
 	}
 }
-@media (min-width: 1000px){
+@media (min-width: 1000px){		div#btn-sx.col-sm-2{
+	margin-left:150px;}
+	div#btn-dx.col-sm-2{
+	float:right;
+		margin-right:150px;
+	}
+	
 	div.col-sm-5 {
 		width: 50%;
 		height: auto;
@@ -51,7 +57,12 @@
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1200px){		div#btn-sx.col-sm-2{
+	margin-left:0px;}
+	div#btn-dx.col-sm-2{
+	float:left;
+		margin-right:0px;
+	}
 	div.col-sm-5 {
 		width: 40%;
 		height: auto;
@@ -59,7 +70,12 @@
 }
 
 
-@media (min-width: 1400px){ div.col-sm-5{
+@media (min-width: 1400px){		div#btn-sx.col-sm-2{
+	margin-left:0px;}
+	div#btn-dx.col-sm-2{
+	float:left;
+		margin-right:0px;
+	} div.col-sm-5{
 		margin-left: 180px;
 		margin-top: 10px
 }
