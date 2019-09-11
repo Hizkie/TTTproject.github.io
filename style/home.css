@@ -12,6 +12,9 @@
 	transition: 0.5s;
 }
 @media (min-width:400px){
+			div#btn-sx.col-sm-2{
+	top:60px;
+	left:20px;}
 	div.col-sm-5{
 		margin-right:50px ;
 		width:20% ;
@@ -19,9 +22,14 @@
 	}
 		div#btn-dx.col-sm-2{
 	float:right;
+				left: 50px;
+	top: 200px;
 	}
 }
 @media (min-width:500px){
+		div#btn-sx.col-sm-2{
+	top:60px;
+	left:20px;}
 	div.col-sm-5{
 		margin-right:50px ;
 		width:20% ;
