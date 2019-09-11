@@ -2,19 +2,35 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display=swap');
 
+
+
+
 .open{
 	transition: 0.5s;
 }
 
+@media (min-width:600px){
+	.btn-sx{
+	margin-left:150px;}
+	.btn-dx{
+	float:right;
+		margin-right:150px;
+	}
+	
+	div.col-sm-5 {
+		width: 80%;
+	}
+}
+
 @media (min-width: 800px){
 	div.col-sm-5 {
-		width: 30%;
+		width: 65%;
 		height: auto;
 	}
 }
 @media (min-width: 1000px){
 	div.col-sm-5 {
-		width: 40%;
+		width: 50%;
 		height: auto;
 	}
 }
