@@ -31,7 +31,12 @@ header{
 
 	color: white;
 }
-header #container {
+
+.col-sm-2 btn {
+	transition: 0.5s;
+}
+
+header#container {
 	opacity: 0.5;
 }
 #content{
