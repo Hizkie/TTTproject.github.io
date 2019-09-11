@@ -6,17 +6,17 @@
 
 
 @media (min-width: 1200px){
-	.col-sm-5 {
+	div.col-sm-5 {
 		width: 80%;	
 	}
 }
 
 
-@media (min-width: 1400px){ .col-sm-5{
+@media (min-width: 1400px){ div.col-sm-5{
 		margin-left: 180px;
 		margin-top: 10px
 }
-	.col-sm-2 {
+	div.col-sm-2 {
 		margin-top:15px;
 	}
 }
@@ -38,7 +38,7 @@ header{
 	color: white;
 }
 
-.col-sm-2 btn {
+div.col-sm-2 btn {
 	transition: 0.5s;
 }
 
