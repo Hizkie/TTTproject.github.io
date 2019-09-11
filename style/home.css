@@ -53,7 +53,7 @@
 	}
 	
 	div.col-sm-5 {
-		left: 200px;
+		left: 130px;
 		width: 50%;
 		height: auto;
 	}
@@ -68,7 +68,7 @@
 		margin-right:0px;
 	}
 	div.col-sm-5 {
-		left: 200px;
+		left: 120px;
 		width: 40%;
 		height: auto;
 	}
@@ -82,7 +82,7 @@
 		bottom:0px;
 		margin-right:0px;
 	} div.col-sm-5{
-		margin-left: 180px;
+		margin-left: 150px;
 		margin-top: 10px
 }
 	div.col-sm-2 {
