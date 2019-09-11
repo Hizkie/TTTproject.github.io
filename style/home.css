@@ -11,6 +11,16 @@
 .dropdown-menu, .dropdown {
 	transition: 0.5s;
 }
+@media (min-width:300px){
+div#btn-sx.col-sm-2{
+	top:35px;
+	}
+	div#btn-dx.col-sm-2{
+
+				left: 200px;
+	top: -20px;
+	}
+}
 @media (min-width:400px){
 			div#btn-sx.col-sm-2{
 	top:60px;
