@@ -8,7 +8,11 @@
 .open{
 	transition: 0.5s;
 }
-
+@media (min-width:500px){
+	div.col-sm-5{
+		margin-right:50px;
+	}
+}
 @media (min-width:600px){
 	.btn-sx{
 	margin-left:150px;}
