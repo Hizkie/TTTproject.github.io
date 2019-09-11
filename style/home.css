@@ -20,10 +20,11 @@
 @media (min-width:500px){
 	div.col-sm-5{
 		margin-right:50px ;
-		width:60% ;
+		width:20% ;
+		float: right;
 	}
 		div#btn-dx.col-sm-2{
-	float:right;
+	float:left;
 	}
 }
 @media (min-width:600px){
