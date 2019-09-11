@@ -21,9 +21,9 @@
 		float: right;
 	}
 		div#btn-dx.col-sm-2{
-	float:right;
+	float:left;
 				left: 50px;
-	top: 200px;
+	top: 100px;
 	}
 }
 @media (min-width:500px){
@@ -51,12 +51,12 @@
 	float:right;
 		margin-right:150px;
 		bottom: 40px;
-		top:0px;
+		top:-40px;
 	}
 	
 	div.col-sm-5 {
 		width: 80%;
-		left: 80px;
+		left: 0px;
 		float:left;
 	}
 }
