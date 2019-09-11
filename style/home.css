@@ -21,7 +21,7 @@
 @media (min-width:600px){
 	div#btn-sx.col-sm-2{
 	margin-left:150px;}
-	div#btn-dx.col-sm2{
+	div#btn-dx.col-sm-2{
 	float:right;
 		margin-right:150px;
 	}
@@ -34,7 +34,7 @@
 @media (min-width: 800px){
 		div#btn-sx.col-sm-2{
 	margin-left:150px;}
-	div#btn-dx.col-sm2{
+	div#btn-dx.col-sm-2{
 	float:right;
 		margin-right:150px;
 	}
