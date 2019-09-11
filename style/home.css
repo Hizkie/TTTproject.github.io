@@ -38,7 +38,7 @@ header{
 	color: white;
 }
 
-div.col-sm-2 btn {
+div .col-sm-2 .btn .btn-primary {
 	transition: 0.5s;
 }
 
