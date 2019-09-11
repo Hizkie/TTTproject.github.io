@@ -14,9 +14,9 @@
 	}
 }
 @media (min-width:600px){
-	.btn-sx{
+	.col-sm-2 .btn-sx{
 	margin-left:150px;}
-	.btn-dx{
+	.col-sm-2 .btn-dx{
 	float:right;
 		margin-right:150px;
 	}
@@ -27,6 +27,12 @@
 }
 
 @media (min-width: 800px){
+		.col-sm-2 .btn-sx{
+	margin-left:150px;}
+	.col-sm-2 .btn-dx{
+	float:right;
+		margin-right:150px;
+	}
 	div.col-sm-5 {
 		width: 65%;
 		height: auto;
