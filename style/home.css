@@ -48,6 +48,7 @@
 	div.col-sm-5 {right:0px;
 		width: 80%;
 		height: auto;
+		left: 0;
 	}
 }
 @media (min-width: 1000px){		div#btn-sx.col-sm-2{
