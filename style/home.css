@@ -14,15 +14,18 @@
 @media (min-width:300px){
 div#btn-sx.col-sm-2{
 	top:35px;
+	max-width:40px;
 	}
 	div#btn-dx.col-sm-2{
+		max-width:40px;
 
-				left: 200px;
+				left: 0px;
 	top: -20px;
 	}
 }
 @media (min-width:400px){
 			div#btn-sx.col-sm-2{
+				max-width:200px;
 	top:60px;
 	left:20px;}
 	div.col-sm-5{
@@ -34,12 +37,14 @@ div#btn-sx.col-sm-2{
 	float:left;
 				left: 50px;
 	top: 100px;
+			max-width:200px;
 	}
 }
 @media (min-width:500px){
 		div#btn-sx.col-sm-2{
 	top:60px;
-	left:20px;}
+	left:20px;
+	max-width:200px;}
 	div.col-sm-5{
 		margin-right:50px ;
 		width:20% ;
@@ -49,6 +54,7 @@ div#btn-sx.col-sm-2{
 	float:left;
 	left: 50px;
 	top: 100px;
+			max-width:200px;
 	}
 }
 @media (min-width:600px){
