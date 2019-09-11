@@ -19,15 +19,20 @@
 	}
 }
 @media (min-width:600px){
+	header {
+		heigth: 100%;
+	}
 	div#btn-sx.col-sm-2{
 	margin-left:150px;}
 	div#btn-dx.col-sm-2{
 	float:right;
 		margin-right:150px;
+		bottom: 40px;
 	}
 	
 	div.col-sm-5 {
 		width: 80%;
+		left: 80px;
 	}
 }
 
