@@ -47,7 +47,7 @@
 @media (min-width: 1000px){		div#btn-sx.col-sm-2{
 	margin-left:0px;}
 	div#btn-dx.col-sm-2{
-			bottom:0px;
+			
 	float:left;
 		margin-right:0px;
 	}
@@ -63,7 +63,7 @@
 	margin-left:0px;}
 	div#btn-dx.col-sm-2{
 	float:left;
-			bottom:0px;
+			
 		margin-right:0px;
 	}
 	div.col-sm-5 {
@@ -77,7 +77,7 @@
 	margin-left:0px;}
 	div#btn-dx.col-sm-2{
 	float:left;
-		bottom:0px;
+		
 		margin-right:0px;
 	} div.col-sm-5{
 		margin-left: 180px;
