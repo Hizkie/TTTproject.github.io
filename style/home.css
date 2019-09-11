@@ -5,7 +5,11 @@
 
 @media (min-width: 768px){ .col-sm-5{
 		margin-left: 150px;
+		margin-top: 10px
 }
+	.col-sm-2 {
+		margin-top:10px;
+	}
 }
 html {
     height: 100%;
