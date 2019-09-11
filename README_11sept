@@ -1,0 +1,45 @@
+-----------
+CHRISTIAN  |
+-----------
+
+Guys i complete the navbar, now is completely responsive and it works even on mobile. I test it on firefox. Maybe we gotta try
+it on another browser. Is it possible to change colors if you prefere some.
+
+I think it might also be possible write some css to decorate the window that appears on clicking the change document 
+and change style buttons.
+
+TODO:
+
+1) link all the pages
+2) test the files
+
+OPTIONAL
+
+1) MOVE THE NAVBAR ON A SPECIFIC FILE AND LOAD IT DINAMICALLY WITH JS
+
+since now i think there is just js todo.
+
+
+For Davide: how is it going with @media queries? 
+
+I found really useful use the developer console in the browser i post you a screenshot.
+It make you modify the window and tells you the size (width) of the page.
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
