@@ -272,7 +272,7 @@ footer {
     padding-top: 8%;
   }
   figure:after {
-    padding-top: 9%;
+    padding-top: 4%;
   }
   figure > figcaption {
     font-size: 0.7rem;
@@ -298,17 +298,17 @@ footer {
   }
   h1:after {
     width: 100%;
-    margin-top: -16%;
-    margin-bottom: -22%;
+    margin-top: -13%;
+    margin-bottom: -18%;
   }
   h2:after {
     width: 100%;
     margin-top: -16%;
-    margin-bottom: -20%;
+    margin-bottom: -19%;
   }
   h3:after {
-        width: 100%;
-    margin-top: -19%;
+    width: 100%;
+    margin-top: -16%;
     margin-bottom: -19%;
   }
   figure:before {
@@ -324,10 +324,10 @@ footer {
 
 @media (max-width: 500px) {  /* to be applied if the screen is between 0 and 500 */
   figure:before {
-    padding-top: 8%;
+    padding-top: 24%;
   }
   figure:after {
-    padding-top: 16%;
+    padding-top: 14%;
   }
   figure > figcaption {
     font-size: 0.7rem;
@@ -343,7 +343,7 @@ footer {
   }
   header:before {
     width: 80vw;
-    margin-top: -55%;
+    margin-top: -35%;
     margin-bottom: -35%;
   }
   header:after {
@@ -354,18 +354,18 @@ footer {
   }
   h1:after {
     width: 100%;
-    margin-top: -34%;
-    margin-bottom: -40%;
+    margin-top: -25%;
+    margin-bottom: -30%;
   }
   h2:after {
     width: 100%;
-    margin-top: -35%;
-    margin-bottom: -40%;
+    margin-top: -30%;
+    margin-bottom: -27%;
   }
   h3:after {
-        width: 100%;
-    margin-top: -35%;
-    margin-bottom: -45%;
+    width: 100%;
+    margin-top: -23%;
+    margin-bottom: -33%;
   }
   figure:before {
     width: 100%;
