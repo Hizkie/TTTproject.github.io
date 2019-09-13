@@ -34,6 +34,8 @@
 	imported.src = 'js/new.js';
 	content.contentWindow.document.head.appendChild(imported);*/
 	var content = document.getElementById("Iframe");
+	content.contentWindow.document.getElementById("style").setAttribute("href",item)
+
 	//	  	var ele = content.contentWindow.document.getElementById("scri").getAttribute("href"); // sec/IF00.html
 	//alert(ele)
      	//content.contentWindow.document.getElementById('scri').src = script
@@ -46,7 +48,6 @@
 		element.id = "scriptid"; 
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
 	  
-  		change_css(item)
 	  }
   </script>
  </head>
