@@ -4,6 +4,8 @@
 
 
   body{
+	  		background-image: linear-gradient( #2F87BF, #b5d1ff) !important;
+
                 border: 125px solid transparent;
                 border-image-source: url(../images/left_border.png);
                 border-image-slice: 0 0 0 200; 
