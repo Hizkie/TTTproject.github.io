@@ -4,7 +4,6 @@
 
 
   body{
-	  		background-image: linear-gradient( #2F87BF, #b5d1ff) !important;
 
                 border: 125px solid transparent;
                 border-image-source: url(../images/left_border.png);
@@ -12,7 +11,7 @@
                 border-image-repeat: repeat;
                 margin-top: -125px;
                 margin-left: 5%;
-                background-color: black;
+                background-color: #E7D1A2 !important;
             }
 main{
 	margin-left: 5%;
