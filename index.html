@@ -36,9 +36,8 @@
 	 var content = document.getElementById("Iframe");
      	content.contentWindow.document.getElementById("scri").setAttribute("href",script)
 	var ele = content.contentWindow.document.getElementById("scri").getAttribute("href"); // sec/IF00.html
-	content.attr("src", "http://www.example.com/");
+	content.src = address;
 
-	alert(ele)
 		  
 	  }
   </script>
@@ -54,7 +53,7 @@
 
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="docs/bloomberg/index.html" target="targetframe">Bloomberg</a></li>
+	    <li><a href="docs/bloomberg/index.html" <script> var address ="docs/bloomberg/index.html" </script> target="targetframe">Bloomberg</a></li>
       <li><a href="docs/harpers/Harpers_Final.html" target="targetframe">Harpers</a></li>
       <li><a href="docs/huffington/Huffington_Final.html" target="targetframe">Huffington</a></li>
       <li><a href="docs/thecut/thecut.html" target="targetframe">The Cut</a></li>
