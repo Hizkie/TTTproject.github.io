@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
@@ -15,7 +15,7 @@ p {
  }
 
 body {
-  background-image: url("colorpalette.jpg");
+  background-image: url("../images/colorpalette.jpg");
   background-size: contain;
     margin-right: 5%;
   margin-left: 5%;
@@ -49,7 +49,7 @@ header::after {
   width: 100%;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url(yellow.png);
+  background-image: url(../images/yellow.png);
   background-position: center;
   margin-top: -130px;
   margin-bottom: -150px;
@@ -126,7 +126,7 @@ h1::before {
   width: auto;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url(orange.png);
+  background-image: url(../images/orange.png);
   background-position: center;
   margin-top: -130px;
   margin-bottom: -150px;
@@ -138,7 +138,7 @@ h1::after {
   width: auto;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url(orange.png);
+  background-image: url(../images/orange.png);
   background-position: center;
   margin-top: -130px;
   margin-bottom: -150px;
@@ -179,7 +179,7 @@ figure::before {
   display: block;
   width: 100%;
   height: 5%;
-  background-image: url(yellowresized2.png);
+  background-image: url(../images/yellowresized2.png);
   background-repeat: no-repeat;
   background-position: center;
 
@@ -192,7 +192,7 @@ figure::after {
   display: block;
   width: 100%;
   height: 5%;
-  background-image: url(orangeresized.png);
+  background-image: url(../images/orangeresized.png);
   background-repeat: no-repeat;
   background-position: center;
 }
