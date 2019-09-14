@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+
+p {  
+  font-size:1.7vw;
+  text-align: justify;
+  font-family: 'Barriecito', cursive;
+ }
+
+body {
+  background-image: url("colorpalette.jpg");
+  background-size: contain;
+    margin-right: 5%;
+  margin-left: 5%;
+}
+
+main {
+
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+    column-count: 2;
+  column-gap: 5%;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: black;
+  column-rule: 1px solid black;
+  column-span: all;
+  column-width: 100px;
+}
+
+header
+{
+  margin-top: -50;
+  text-align: center;
+}
+
+
+header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-image: url(yellow.png);
+  background-position: center;
+  margin-top: -130px;
+  margin-bottom: -150px;
+}
+
+
+h1 {    
+    font-family: 'Bungee Shade', cursive;
+    font-size: 7.3vw;
+    display: inline-block;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 0.8%;
+    border-bottom: 6px solid #2f2f2f;
+    border-top: 6px solid #2f2f2f;
+    border-left: 6px solid #2f2f2f;
+    border-right: 6px solid #2f2f2f;
+    padding: 8px 0 7 0;
+    background-color: #FE9501;
+    color: transparent;
+    -webkit-text-stroke-width: 2.2px;
+    -webkit-text-stroke-color: black;
+    border-radius: 25%
+
+}
+
+
+
+h2 {
+    font-family: "Bungee Outline" , cursive;
+    font-size: 3.9vw;
+    display: inline-block;
+    line-height: 130%;
+    margin-bottom: 0.8%;
+    border-bottom: 6px solid #2f2f2f;
+    border-top: 6px solid #2f2f2f;
+    border-left: 6px solid #2f2f2f;
+    border-right: 6px solid #2f2f2f;
+    padding: 8px 0 0 0;
+    background-color: red;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-transform:uppercase;
+    border-radius: 30%
+}
+
+
+h3 {
+    font-family: 'Bowlby One SC', cursive;
+    text-transform: uppercase;
+    font-size: 2.3vw;
+    text-align: center;
+    display: inline-block;
+    line-height: 100%;
+    margin-bottom: 10px;
+    border-bottom: 6px solid #2f2f2f;
+    border-left: 6px solid #2f2f2f;
+    border-right: 6px solid #2f2f2f;
+    border-top: 6px solid #2f2f2f;
+    padding: 8px 0 0 0;
+    background-color: red;
+    color: transparent;
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-stroke-color: black;
+    border-radius: 15%
+}
+
+
+
+h1::before {
+  content: "";
+  display: block;
+  width: auto;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-image: url(orange.png);
+  background-position: center;
+  margin-top: -130px;
+  margin-bottom: -150px;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-image: url(orange.png);
+  background-position: center;
+  margin-top: -130px;
+  margin-bottom: -150px;
+}
+
+h4 {
+    text-transform: uppercase;
+    padding: 12px 0 12px 0;
+    font-size: 1.5vw;
+     font-family: 'Barriecito', cursive;
+
+}
+
+p::first-letter {
+  font-size: 5.3vw;
+  color: red;
+      -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-style: italic;
+
+}
+
+img {
+   padding:1px;
+   border:2px solid #021a40;
+   max-width: 65%; 
+   display:block; 
+   height: auto;   
+   margin: 0 auto;
+   border-radius: 20px;
+   border-radius: 50%
+  }
+
+
+figure::before {
+  content: "";
+  padding: 20;
+  display: block;
+  width: 100%;
+  height: 5%;
+  background-image: url(yellowresized2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+figure::after {
+  content: "";
+  padding: 20;
+  display: block;
+  width: 100%;
+  height: 5%;
+  background-image: url(orangeresized.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+figcaption {
+    font-family: 'Bowlby One SC', cursive;
+  font-size: 1.2vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5vh 1 1 1;
+}
+
+
+trailer {
+    font-family: 'Bowlby One SC', cursive;
+      font-size:1.1vw;
+  text-align: justify;
+}
+
+
+table, th, td {
+  border: 2px solid black;
+  position: center;
+     padding:7px;
+   max-width: 65%; 
+   display:block; 
+   height: auto;   
+   margin: 0 auto;
+     font-size: 1.4vw;
+  font-family: 'Barriecito', cursive;
+           text-align: center;
+
+}
+
+h5 {
+      font-family: 'Barriecito', cursive;
+    margin: 0 auto;
+      color: red;
+      text-transform: uppercase;
+    font-size: 4vw;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-align:center;
+}
+
+
+q {  
+      font-family: 'Barriecito', cursive;
+  font-size:1.3vw;
+    font-style: italic;
+}
+
+
+footer {    
+  font-style: italic;
+}
+
+/*my burden*/
+
+@media (max-width: 900px) {  /* to be applied if the screen is between 0 and 900 */
+  figure:before {
+    padding-top: 8%;
+  }
+  figure:after {
+    padding-top: 4%;
+  }
+  figure > figcaption {
+    font-size: 0.7rem;
+  }
+  figure > table {
+    margin: 5% auto;
+  }
+  ol {
+    margin: 0 0 5% 0;
+}
+  footer {
+    padding: 5% 0;
+  }
+  header:before {
+    width: 80vw;
+    margin-top: -19%;
+    margin-bottom: -17%;
+  }
+  header:after {
+    width: 80vw;
+    margin-top: -21%;
+    margin-bottom: -22%;
+  }
+  h1:after {
+    width: 100%;
+    margin-top: -13%;
+    margin-bottom: -18%;
+  }
+  h2:after {
+    width: 100%;
+    margin-top: -16%;
+    margin-bottom: -19%;
+  }
+  h3:after {
+    width: 100%;
+    margin-top: -16%;
+    margin-bottom: -19%;
+  }
+  figure:before {
+    width: 100%;
+    margin: 0;
+  }
+  figure:after {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+@media (max-width: 500px) {  /* to be applied if the screen is between 0 and 500 */
+  figure:before {
+    padding-top: 24%;
+  }
+  figure:after {
+    padding-top: 14%;
+  }
+  figure > figcaption {
+    font-size: 0.7rem;
+  }
+  figure > table {
+    margin: 5% auto;
+  }
+  ol {
+    margin: 0 0 5% 0;
+}
+  footer {
+    padding: 5% 0;
+  }
+  header:before {
+    width: 80vw;
+    margin-top: -35%;
+    margin-bottom: -35%;
+  }
+  header:after {
+    width: 80vw;
+    margin-top: -38%;
+    margin-bottom: -40%;
+    padding-top: -15vmin;
+  }
+  h1:after {
+    width: 100%;
+    margin-top: -25%;
+    margin-bottom: -30%;
+  }
+  h2:after {
+    width: 100%;
+    margin-top: -30%;
+    margin-bottom: -27%;
+  }
+  h3:after {
+    width: 100%;
+    margin-top: -23%;
+    margin-bottom: -33%;
+  }
+  figure:before {
+    width: 100%;
+    margin: 0;
+  }
+  figure:after {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 700px) {  /* to be applied if the screen is between 0 and 500 */
+  figure:before {
+    padding-top: 22%;
+  }
+  figure:after {
+    padding-top: 20%;
+  }
+  figure > figcaption {
+    font-size: 0.7rem;
+  }
+  figure > table {
+    margin: 5% auto;
+  }
+  ol {
+    margin: 0 0 5% 0;
+}
+  footer {
+    padding: 5% 0;
+  }
+  header:before {
+    width: 80vw;
+    margin-top: -25%;
+    margin-bottom: -30%;
+  }
+  header:after {
+    width: 80vw;
+    margin-top: -20%;
+    margin-bottom: -25%;
+  }
+  h1:after {
+    width: 100%;
+    margin-top: -15%;
+    margin-bottom: -20%;
+  }
+  h2:after {
+    width: 100%;
+    margin-top: -20%;
+    margin-bottom: -23%;
+  }
+  h3:after {
+    width: 100%;
+    margin-top: -20%;
+    margin-bottom: -23%;
+  }
+  figure:before {
+    width: 100%;
+    margin: 0;
+  }
+  figure:after {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+@media only screen  and (min-width : 1224px) { /* this rule will be applied to desktop screen */
+  header:before {
+  margin-top: -13%;
+  margin-bottom: -9%;  }
+
+  figure:after {
+    margin-bottom: -2%;
+  }
+
+  h1:after {
+    margin-top: -10%;
+    margin-bottom: -13%;
+  }
+
+  h2:after {
+  margin-top: -10%;
+  margin-bottom: -13%;
+  }
+
+  h3:after {
+  margin-top: -10%;
+  margin-bottom: -13%;
+  }
+
+}
