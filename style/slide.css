@@ -1,4 +1,6 @@
-
+body{
+                color: black;
+            }
             p{
                 display: none
             }
@@ -12,7 +14,7 @@
                 display: none;
             }
             body{
-                background-image: url('../images/back.jpeg')
+                background-image: url()
             }
             q{
                 display: none;
@@ -78,14 +80,3 @@
                 width: 50%;
                 height: 70%;
             }
-
-
-the lsit of interactions and sentiment analsysis, sample of all the paragrapph in which the main character intarct
-
-
-frodo gandalf
-frodo sam
-frodo sauron 
-gandalf sam
-gandalf sauron
-sam sauron
