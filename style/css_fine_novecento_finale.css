@@ -387,13 +387,14 @@ header {
 height: 700px;}	
 	/* colonne */
 	main {
-	 	 	 	column-count: 2;
+	 	 	 	
+		-count: 2;
 	column-gap: 0.3em ;
 	column-rule-style: solid;
 	column-rule-width: 1em;
 	column-rule-color: black;
 	column-rule: 1px solid black;}
-	
+
 	
 	body {	/*magazine style rule*/
 	margin-top: 1em;
@@ -928,8 +929,8 @@ height: 100%;
 }
 
 body figure img {
-max-height: 550px;
-max-width: 1200px;
+max-height: 350px;
+max-width: 600px;
 border-radius: 50%;
  /* La altezza massima dell'immagine nell'header è 550 px 
 se un immagine è più grande si riduce altrimenti rimane com'è*/
