@@ -11,7 +11,7 @@
                 border-image-repeat: repeat;
                 margin-top: -125px;
                 margin-left: 5%;
-                background-color: #E7D1A2 !important;
+                background-images: url('../../old_paper.jpg')!important;
             }
 main{
 	margin-left: 5%;
