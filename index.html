@@ -18,15 +18,15 @@
   <script src="script/1.js"></script> 
 
   <title>Home</title>
-	   // Works with $.get too!
-  <script type="text/javascript">
 
- function change_css(item){
-     var content = document.getElementById("Iframe");
+  <script type="text/javascript">
+	   // Works with $.get too!
+ 	function change_css(item){
+     	var content = document.getElementById("Iframe");
      
-	if (content.contentWindow.document.getElementById("style") !== null) {
+		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
-	} else {
+		} else {
 		
 	// HERE WE MANAGE EU DIRECTIVE DOUBLE STYLE CHANGE (IT HAS 2 Iframe ELEMENT )
 		var content_english = document.getElementById("left");
