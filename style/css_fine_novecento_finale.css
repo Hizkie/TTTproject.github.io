@@ -1026,44 +1026,4 @@ color: yellow;}
 footer a:visited {
 color: purple;}
 
-/* piega nell'angolino */
-/*
-body::before {
-  content: "";
-  position: absolute;
-
-  top: 0;
-  right: 0;
-  border-width: 100px 0px 0px 100px;
-  border-style: solid;
-  border-color: white white white #f9eeee;
-  border-radius: 0 0 0 0px;
-
-  /* Firefox 3.0 damage limitation*/ 
-  display: block; width: 0;
-  */
-
-}
-/*
-body::before {
-  content: "";
-  position: absolute;
-  
-  top: -5;
-  right: -5;
-  padding-left: 100px;
-  padding-right: 30px;
-  padding-top: 0px;
-  padding-bottom: 100px; 
-  border-width: 5px 5px 0.1em 0.1em;
-  border-style: solid;
-  border-color: black;
-  border-top-color: white;
-  border-right-color: white;
-  border-radius: 0 0 0 20px;
-
-   /*Firefox 3.0 damage limitation */
-  display: block; width: 0;
-  
-  */
-
+	}
