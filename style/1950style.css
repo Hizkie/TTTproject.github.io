@@ -424,6 +424,10 @@ footer {
   margin-bottom: 9%; 
   }
 
+  figure:before { 
+    margin-top: 10%;
+  }
+  
   figure:after {
     margin-bottom: -2%;
   }
