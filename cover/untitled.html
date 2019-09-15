@@ -1,0 +1,214 @@
+<style>
+*, *:before, *:after { 
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  color: #191919;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  width: 100%;  
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 24px;
+  max-width: 1000px;
+  position: relative;
+}
+
+.wrapper > * {
+  grid-column: 1 / span 2;
+}
+
+.header {
+  font-size: 1.5em;
+  grid-row: 1 / 2;
+}
+
+header:after {
+  background: #6817ba;
+  content: "";
+  display: block;
+  height: 20px;
+  width: auto;
+}
+
+.article {
+  text-align: right;
+}
+
+.featured-image-1 {
+  grid-row: 2 / 3;
+}
+
+.number-1 {
+  grid-row: 2 / 4;
+}
+
+.featured-image-2, .number-2 {
+  grid-row: 4 / 5;
+}
+
+.number-1, .number-4 {
+  align-self: end;
+  color: rgba(104,23,186,0.5);
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 480px;
+  line-height: 480px;
+  grid-column: 1 / 2;
+}
+
+.article-1, .article-4 {
+  grid-column: 2 / 3;
+}
+
+.featured-image-2, .number-2 {
+  align-self: end;
+}
+
+.number-2 {
+  color: #eee;
+  font-size: 200px;
+  justify-self: end;
+  line-height: 160px;
+}
+
+.number-3 {
+  background: black;
+  border-radius: 130px;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 100px;
+  height: 130px;
+  line-height: 130px;
+  position: absolute;
+  grid-row: 6 / 7;
+  right: -20px;
+  text-align: center;
+  top: -20px;
+  width: 130px;
+}
+
+.featured-image-3 img {
+  height: 100%;
+}
+
+.number-4 {
+  font-size: 320px;
+  left: -20px;
+  line-height: 320px;
+  position: absolute;
+}
+
+@media (min-width: 600px) {
+  
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr 2fr);
+    margin: 24px auto;
+  }
+  
+  .header {
+    grid-column: 3 / 5;
+    width: 70%;
+  }
+  
+  .featured-image-1 {
+    grid-row: 1 / 3;
+  }
+  
+  .article-1 {
+    grid-row: 3 / 4;
+  }
+  
+  .article-2 {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+  }
+  
+  .featured-image-2, .number-2 {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+  }
+
+  .featured-image-3, .number-3 {
+    grid-row: 4 / 6;
+  }
+  
+  .featured-image-4, .number-4 {
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+  }
+  
+  .number-4 {
+    font-size: 320px;
+    grid-row: 5 / 7;
+  }
+  
+  .article-3, .article-4 {
+    grid-row: 6 / 7;
+  }
+  
+  .article-4 {
+    grid-column: 4 / 5;
+  }
+  
+}
+</style>
+
+<div class="wrapper">
+  <header class="header"><h1>StyleMe</h1>
+    <h3><i>A journey through different styles</i></h3>
+     <h6><i>Design is, literally, purposeful planning. Graphic Design, then, is the form those plans will take.</i> (Chip Kidd)</h6>
+  </header>
+  <figure class="featured-image-1">
+      <img src="img/beforeprinting.png" alt="Photo by Karina Carvalho on Unsplash">
+   </figure>
+  <div class="number-1">1</div>
+  <article class="article article-1">
+    <h2>Before printing</h2>
+    <p>How were documents written and how was the layout before Gutenberg?</p>
+  </article>
+  <figure class="featured-image-2">
+      <img src="img/afterprinting.png" alt="afterprinting">
+   </figure>
+  <div class="number-2"; style="-webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;">2</div>
+  <article class="article article-2">
+    <h2>After printing</h2>
+    <p>Inspired by the Western "Wanted" signs, this style will bring you back a long time ago.</p>
+  </article>
+  <figure class="featured-image-3">
+      <img src="img/modernnewspaper.png" alt="Photo by Seth Doyle on Unsplash">
+   </figure>
+  <div class="number-3">3</div>
+  <article class="article article-3">
+    <h2>Modern newspapers</h2>
+    <p>Order, clarity and completeness of the information were the keys.</p>
+  </article>
+  <figure class="featured-image-4">
+      <img src="img/video.png" alt="Photo by Tim Marshall on Unsplash">
+   </figure>
+  <div class="number-4">4</div>
+  <article class="article article-4">
+    <h2>The future</h2>
+    <p>How will the news be spread in the future?</p>
+  </article>
+</div>
