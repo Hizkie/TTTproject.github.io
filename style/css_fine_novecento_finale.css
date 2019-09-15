@@ -817,7 +817,7 @@ color: purple;}
 	
 	
 	main {
-	 	 	 	column-count: 3;
+	 	 	 	column-count: 1;
 	column-gap: 0.3em ;
 	column-rule-style: solid;
 	column-rule-width: 1em;
