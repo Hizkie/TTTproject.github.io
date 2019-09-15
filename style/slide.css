@@ -1,9 +1,7 @@
 body{
                 color: black;
-                background-image: url('../images/back.jpeg') !important;
-                background-position: center !important;
-                background-repeat: no-repeat !important;
-                background-size: cover !important;
+                background-image: url('../images/backFut.jpeg') !important;
+
             }
             p{
                 display: none
