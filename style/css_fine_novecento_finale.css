@@ -286,7 +286,7 @@ height: 100%;
 body figure img {
 max-height: 400px;
 max-width: 350px;
-border-radius: 50%;
+/*border-radius: 50%;*/
  /* La altezza massima dell'immagine nell'header è 550 px 
 se un immagine è più grande si riduce altrimenti rimane com'è*/
 
@@ -505,7 +505,7 @@ height: 100%;
 body figure img {
 max-height: 400px;
 max-width: 550px;
-border-radius: 50%;
+/*border-radius: 50%;*/
  /* La altezza massima dell'immagine nell'header è 550 px 
 se un immagine è più grande si riduce altrimenti rimane com'è*/
 
@@ -712,7 +712,7 @@ height: 100%;
 body figure img {
 max-height: 400px;
 max-width: 700px;
-border-radius: 50%;
+/*border-radius: 50%;*/
  /* La altezza massima dell'immagine nell'header è 550 px 
 se un immagine è più grande si riduce altrimenti rimane com'è*/
 
