@@ -17,7 +17,7 @@ body{
 img{ display: none;
 }
 figcaption{display: none}
-            figure{
+            figure img{
                 display: none;
             }
             h4{
