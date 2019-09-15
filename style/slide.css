@@ -4,20 +4,10 @@ body{
             p{
                 display: none
             }
-          h1{
-                display: none;
-            }
-          h2{
-            display: none}
-          h3{
-            display: none}
             header{
                 display: none;
             }
-img{ display: none;
-}
-figcaption{display: none}
-            figure img{
+            figure{
                 display: none;
             }
             h4{
@@ -90,3 +80,5 @@ figcaption{display: none}
                 width: 50%;
                 height: 70%;
             }
+
+
