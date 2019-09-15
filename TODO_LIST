@@ -1,5 +1,5 @@
 -- random function for first css loading
--- eu directive
+-- eu directive   
 - fix the "about" problem; when one clicks on "about", the up bar disappears; screenshot: http://prntscr.com/p6cfhm 
 - many styles do not work properly: screenshots: http://prntscr.com/p6cfpy; http://prntscr.com/p6cfub; http://prntscr.com/p6cfy7
-- The hover effect is not working well
+- The hover effect is not working well  DONE
