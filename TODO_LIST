@@ -1,5 +1,11 @@
 -- random function for first css loading
+
 -- eu directive   
-- fix the "about" problem; when one clicks on "about", the up bar disappears; screenshot: http://prntscr.com/p6cfhm 
-- many styles do not work properly: screenshots: http://prntscr.com/p6cfpy; http://prntscr.com/p6cfub; http://prntscr.com/p6cfy7
+
 - The hover effect is not working well  DONE
+
+- fix the menu order and the styiles: 
+  1) Before 1500; 2) XIX Century; 3) First half of the XX Century; 4) Second half of the XX Century; 
+  5) Late XX Century (print); 6) Late XX Century (print)
+  
+- read this, I put here many of the glitches we should solve: https://docs.google.com/document/d/1RDx_tSpPm-OwwiHn1np8vMU3OZwhx8QsIZBvTYANj24/edit?usp=sharing
