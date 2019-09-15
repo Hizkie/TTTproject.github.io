@@ -817,7 +817,7 @@ color: purple;}
 	
 	
 	main {
-	 	 	 	column-count: 1;
+	 	 	 	column-count: 3;
 	column-gap: 0.3em ;
 	column-rule-style: solid;
 	column-rule-width: 1em;
@@ -931,7 +931,7 @@ height: 100%;
 body figure img {
 max-height: 350px;
 max-width: 600px;
-border-radius: 50%;
+/*border-radius: 50%;*/
  /* La altezza massima dell'immagine nell'header è 550 px 
 se un immagine è più grande si riduce altrimenti rimane com'è*/
 
