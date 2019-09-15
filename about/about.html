@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" class="demo-3">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Name of our project - Documentation</title>
+		<meta name="description" content="Custom Heading Set Styling with CSS" />
+		<meta name="keywords" content="headings, h1, h2, h3, styling, css, vertical rythm, custom, creative, styles" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Hammersmith+One|Questrial' rel='stylesheet' type='text/css'>
+		<script src="js/modernizr.custom.63321.js"></script>
+	</head>
+<body><style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+
+		<div class="container">
+			
+			<header>
+			
+				<h1><strong>TTT Project: </strong>Trans-historical Typographic Theming Tour-de-force</h1>
+				<h1>[About]</h1>
+			</header>
+			
+			<section class="main">
+				<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Davide Apolloni</h2>
+        <p>Student of Digital Humanities and Digital Knowledge at Bologna's University</p>
+        <br>
+        <p>davidemaria.apolloni@studio.unibo.it</p>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Christian Colonna</h2>
+        <p>Student of Linguistics at Bologna's University.</p>
+        <br>
+        <p>christian.colonna@studio.unibo.it</p>
+        <br>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Hizkiel Mitiku</h2>
+        <p>Student of Digital Humanities and Digital Knowledge at Bologna's University.</p><br>
+        <p>example@example.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+				
+			</section>
+		</div>
+	</body>
+</html>
