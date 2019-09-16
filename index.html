@@ -61,8 +61,11 @@ function checkCss(){
 			 currentHtml.src = item;
 			 
 			     console.log("im changeHtml, i check there is a css loaded, it's " + css);
+			 console.log("BEFORE THE CALLBACK");
 			 callback(css);
-	
+			console.log("AFTER THE CALLBACK");
+			 var css = currentHtml.contentWindow.document.getElementById("style").href;
+			 conosle.log("CSS IS " + css + " IT S BEEN RESETTED WTF"); 
           
 			
 		 } else { 
