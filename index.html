@@ -61,7 +61,9 @@ function checkCss(){
 			 currentHtml.src = item;
 			 
 			     console.log("im changeHtml, i check there is a css loaded, it's " + css);
-			 change_css(css);
+			 //change_css(css);
+			 var event = new CustomEvent("changecss", { "detail": "Example of an event" });
+    			document.dispatchEvent(event);
           
 			
 		 } else { 
