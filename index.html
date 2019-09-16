@@ -57,10 +57,13 @@ function checkCss(){
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 currentHtml.src = item;
 			 change_css(css);
+                         console.log("im changeHtml, i check there is a css loaded, it's " + css);
 		 } else { 
-		 //console.log("In the MAIN(COVER,ABOUT,DISCL,DOCUM) href of iframe is: " + currentHtml.href);
+
 		 currentHtml.src = item;
-		 change_css(randomCss());
+		var random_css = randomCss();	 
+		 change_css(random_css);
+                console.log("im change HTML, i check there isn't a css loaded, i generate it random it's " + random_css); 
 		 } 
 	 }
 	 </script>
