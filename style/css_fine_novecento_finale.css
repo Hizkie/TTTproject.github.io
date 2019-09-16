@@ -180,8 +180,8 @@ font-size:0.9em;}
 	column-rule-style: solid;
 	column-rule-width: 1em;
 	column-rule-color: black;
-	column-rule: 1px solid black;}
-	*/
+	column-rule: 1px solid black;
+		*/}
 	body {	/*magazine style rule*/
 	margin-top: 3em;
 	margin-right: 1.5em;
@@ -384,7 +384,7 @@ footer a:hover {
 color: yellow;}
 footer a:visited {
 color: purple;}
-
+}
 @media (min-width: 600px) {
 
 header {
