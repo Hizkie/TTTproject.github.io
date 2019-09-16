@@ -78,10 +78,12 @@ function checkCss(){
 	   // Works with $.get too!
  	function change_css(item){
      	var content = document.getElementById("Iframe");
-     
+        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		console.log("im in the case not eudirective css must be changed");
 		} else {
+			console.log("im change_css if im here it must be called eu_directive else there is an error");
 		
 	// HERE WE MANAGE EU DIRECTIVE DOUBLE STYLE CHANGE (IT HAS 2 Iframe ELEMENT )
 		var content_english = content.contentWindow.document.getElementById("left");
