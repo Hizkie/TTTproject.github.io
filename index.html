@@ -18,7 +18,23 @@
   <script src="script/1.js"></script> 
 
   <title>Home</title>
-
+<script type="text/javascript">
+	// function checks if a css is already loaded returns True or False
+	// in the logic of WebSite if true html is changed else if false randomCss() is called
+function checkCss(){
+	var content = document.getElementById("Iframe");
+	console.log(content.contentWindow.document.getElementById("style").href);
+}
+	 </script>
+	 
+	 
+	 <script type="text/javascript">
+	 document.addEventListener('DOMContentLoaded', function() {
+  var content = document.getElementById("Iframe");
+	console.log(content.contentWindow.document.getElementById("style").href);
+}, false);
+	 </script>
+	 
 	 <script type="text/javascript">
 	 function changeHtml(item){
 		 var homeHtmls = ["https://tttproject.github.io/"]; 
