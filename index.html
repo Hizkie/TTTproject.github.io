@@ -60,7 +60,7 @@ function checkCss(){
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 currentHtml.src = item;
 			     console.log("im changeHtml, i check there is a css loaded, it's " + css);
-			 change_css(css);
+			 change_css(' + css + ');
           
 			
 		 } else { 
