@@ -59,7 +59,7 @@ function checkCss(){
 		 if (checkCss()) {
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 currentHtml.src = item;
-			 var wrapped_css = ' + css + '; 
+			 var wrapped_css = "'" + css + "'"; 
 			     console.log("im changeHtml, i check there is a css loaded, it's " + wrapped_css);
 			 change_css(wrapped_css);
           
