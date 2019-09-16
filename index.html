@@ -23,6 +23,9 @@
 	// in the logic of WebSite if true html is changed else if false randomCss() is called
 function checkCss(){
 	var css = document.getElementById("Iframe").contentWindow.document.getElementById("style").href;
+	var iframe = document.getElementById("Iframe").href;
+	var css2 = document.getElementById("Iframe").contentWindow.document.getElementById("style");
+	console.log("im check css i print this, ifram: " + iframe + " css2 " + css2");
 	if (css === '') { 
 		console.log("I'm checkCSS i print false, style.href === '' "); 
 		return false; }
