@@ -7,8 +7,6 @@ body{
                 border-image-source: url(../images/left_border.png);
                 border-image-slice: 0 0 0 200; 
                 border-image-repeat: repeat;
-                margin-top: -125px;
-                margin-left: 5%;
                 background-color: #E7D1A2 !important;
           
 }
@@ -16,7 +14,6 @@ body{
         body{
             width: 550px;
             height: 550px;
-            background-color: yellow !important;
         }
         img{
             width: 300px !important;
