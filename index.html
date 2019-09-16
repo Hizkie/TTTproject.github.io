@@ -59,7 +59,9 @@ function checkCss(){
 		 if (checkCss()) {
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 currentHtml.src = item;
-			 
+			 console.log("this is print after currentHtml.src is changed");
+			 var newhtmlcss = document.getElementbyId("Iframe").contentWindow.document.getElementById("style").href
+			 console.log("IF CSS is the same of the line above then the new html its not loaded yet: " + newhtmlcss);
 			     console.log("im changeHtml, i check there is a css loaded, it's " + css);
 			 console.log("BEFORE THE CALLBACK");
 			 callback(css);
