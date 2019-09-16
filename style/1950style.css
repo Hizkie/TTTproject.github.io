@@ -15,7 +15,7 @@ p {
  }
 
 body {
-  background-image: url("../images/colorpalette.jpg");
+  background-image: url("colorpalette.jpg");
   background-size: contain;
     margin-right: 5%;
   margin-left: 5%;
@@ -38,7 +38,7 @@ main {
 
 header
 {
-  margin-top: 1%;
+  margin-top: -6%;
   text-align: center;
 }
 
@@ -49,7 +49,7 @@ header::after {
   width: 100%;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url(../images/yellow.png);
+  background-image: url(yellow.png);
   background-position: center;
   margin-top: -13%;
   margin-bottom: -7%;
@@ -126,7 +126,7 @@ h1::before {
   width: auto;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url(../images/orange.png);
+  background-image: url(orange.png);
   background-position: center;
   margin-top: -10%;
   margin-bottom: -10%;
@@ -138,7 +138,7 @@ h1::after {
   width: auto;
   height: 50%;
   background-repeat: no-repeat;
-  background-image: url(../images/orange.png);
+  background-image: url(orange.png);
   background-position: center;
   margin-top: -10%;
   margin-bottom: -10%;
@@ -174,24 +174,28 @@ img {
 
 figure::before {
   content: "";
-  padding: 5%;
+  padding: 2%;
   display: block;
   width: 100%;
   height: 5%;
-  background-image: url(../images/yellowresized2.png);
+  background-image: url(yellowresized2.png);
   background-repeat: no-repeat;
   background-position: center;
 
 }
 
+figure {
+  margin-top: -5%;
+}
+
 
 figure::after {
   content: "";
-  padding: 5%;
+  padding: 2%;
   display: block;
   width: 100%;
   height: 5%;
-  background-image: url(../images/orangeresized.png);
+  background-image: url(orangeresized.png);
   background-repeat: no-repeat;
   background-position: center;
 }
