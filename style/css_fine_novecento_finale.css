@@ -28,9 +28,12 @@ header figure {
 }
 body figure {
 	max-width: 400px;
-	max-height: 300px;
+	/*max-height: 300px;*/
 }
 
+main {
+	width: 100%;
+}
 
 header p {
 	margin-top: 0em;
