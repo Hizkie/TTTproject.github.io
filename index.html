@@ -19,6 +19,17 @@
 
   <title>Home</title>
 
+	 <script type="text/javascript">
+	 function changeHtml(item){
+		 var homeHtmls = ["https://tttproject.github.io/"]; 
+		 
+		 var currentHtml = document.getElementById("Iframe");
+		 
+		 //console.log("In the MAIN(COVER,ABOUT,DISCL,DOCUM) href of iframe is: " + currentHtml.href);
+		 currentHtml.src = item;
+		 
+	 </script>
+	 
   <script type="text/javascript">
 	   // Works with $.get too!
  	function change_css(item){
@@ -26,6 +37,7 @@
      
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		
 		} else {
 		
 	// HERE WE MANAGE EU DIRECTIVE DOUBLE STYLE CHANGE (IT HAS 2 Iframe ELEMENT )
@@ -103,7 +115,8 @@
     <div class="col-sm-5">
       <div id="menu">
     <ul> 
-      <li><a href="https://tttproject.github.io/disclaimer/disclaimer.html" target="targetframe">Disclaimer</a></li>
+<!--      <li><a href="https://tttproject.github.io/disclaimer/disclaimer.html" target="targetframe">Disclaimer</a></li>-->
+ 	<li><a href="#" onclick="changeHtml('https://tttproject.github.io/disclaimer/disclaimer.html')">Disclaimer</a></li>    
       <li><a href="https://tttproject.github.io/documentation/documentation.html" target="targetframe">Documentation</a></li>
       <li><a href="https://tttproject.github.io/about/about.html" target="targetframe">About</a></li>
       <li><a href="https://tttproject.github.io/cover/cover.html" target="targetframe">Cover</a></li>
