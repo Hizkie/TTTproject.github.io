@@ -11,9 +11,8 @@
                 margin-left: 5%;
                 background-color: #E7D1A2 !important;
             }
-main{
-	margin-left: 5%;
 }
+
             h1{
                 text-align: center;
                 font-family: Almendra SC;
@@ -50,30 +49,23 @@ main{
 img{
 	-webkit-filter: grayscale(100%);
 	margin-left: 10%;
-	width: 80%;
+
 }
 figure{
 	height: 75%;
 }
-figcaption{
-	margin-left: 10%;
-}
+
 
 main p{
 	border: 125px solid transparent;
     border-image-source: url(../images/border.png);
 	border-image-slice: 0 0 200 0; 
 	border-image-repeat: repeat;
-	padding-bottom: 5%;
 	font-size: 30px;
 
 
 }
-}
-@media only screen and (max-width: 200px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
-}
+
+
+
