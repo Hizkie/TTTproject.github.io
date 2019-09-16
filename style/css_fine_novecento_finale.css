@@ -399,7 +399,7 @@ height: 700px;}
 	column-rule-color: black;
 	column-rule: 1px solid black;}
 */
-	
+	}
 	body {	/*magazine style rule*/
 	margin-top: 1em;
 	margin-right: 1.5em;
@@ -603,7 +603,7 @@ footer a:hover {
 color: yellow;}
 footer a:visited {
 color: purple;}
-
+}
 @media (min-width: 800px) {
 	
 	header {
@@ -810,15 +810,15 @@ footer a:hover {
 color: yellow;}
 footer a:visited {
 color: purple;}
-
+}
 /* Schermo più grande */
 @media (min-width: 1000px) {
 	
-/*	header
+	header
 	{
 	height:  800px;
-	}
-*/	
+}
+	
 	/* COLUMN 1000px*/
 	main {
 	 	 	 	column-count: 3;
