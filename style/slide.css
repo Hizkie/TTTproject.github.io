@@ -47,7 +47,6 @@ body{
                 background-color: black;
                 color: #4CC3EB;
             	font-family: 'Press Start 2P', cursive;
-		font-size: 2px;
                 text-align: center;
 
 
@@ -94,7 +93,10 @@ body{
 	font-size: 30px;
 }
 #bodyvid{
-	height:150px;
+	height:150px;		
+	font-size: 4px;
+
+	
 }
 }
 @media only screen and (min-width: 601px) {
@@ -114,6 +116,8 @@ body{
 }
 #bodyvid{
 	height:300px;
+	font-size: 10px;
+
 }
 	}
 @media only screen and (min-width: 900px){
@@ -133,6 +137,8 @@ body{
 }
 #bodyvid{
 	height:400px;
+	font-size: 12px;
+
 }
 	}}
 @media only screen and (min-width: 1200px){body{
@@ -155,6 +161,8 @@ body{
 }
 #bodyvid{
 	height:400px;
+	font-size: 17px;
+
 }}
 
 
