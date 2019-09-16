@@ -52,7 +52,7 @@ function checkCss(){
 	 }
 	 </script>
 	 <script type="text/javascript">
-	 function changeHtml(item){
+	 function changeHtml(item, callback){
 
 		 var currentHtml = document.getElementById("Iframe");
 		 
@@ -61,17 +61,17 @@ function checkCss(){
 			 currentHtml.src = item;
 			 
 			     console.log("im changeHtml, i check there is a css loaded, it's " + css);
-			 //change_css(css);
-			 var event = new CustomEvent("changecss", { "detail": "Example of an event" });
-    			document.dispatchEvent(event);
+			 callback(css);
+	
           
 			
 		 } else { 
 
 		 currentHtml.src = item;
 		var random_css = randomCss();	 
-		 change_css(random_css);
+		 
                 console.log("im change HTML, i check there isn't a css loaded, i generate it random it's " + random_css); 
+		callback(random_css);
 		 } 
 	 }
 	 </script>
