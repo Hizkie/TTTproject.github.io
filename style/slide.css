@@ -85,6 +85,9 @@ body{
 	height: 400px;
 	width: 350px;
 	}
+	p{
+		font-size: 10px;
+	}
 #footerid{
 	height: 35px;
    }
