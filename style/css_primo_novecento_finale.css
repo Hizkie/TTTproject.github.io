@@ -30,6 +30,9 @@ header p {
 	border-top-width: 0em;
 }
 
+body header figure {
+ display: block;
+}
 header img {
 	
 
