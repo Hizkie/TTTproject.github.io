@@ -16,9 +16,6 @@ body{
             h4{
                 display: none;
             }
-            body{
-                background-image: url()
-            }
             q{
                 display: none;
             }
@@ -50,7 +47,7 @@ body{
                 background-color: black;
                 color: #4CC3EB;
             	font-family: 'Press Start 2P', cursive;
-		font-size: 1vw;
+		font-size: 2px;
                 text-align: center;
 
 
