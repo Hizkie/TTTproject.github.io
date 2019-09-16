@@ -99,7 +99,7 @@ body{
 }
 @media only screen and (min-width: 601px) {
 #vid{
-	margin-top: 15%;
+	margin-top: 10%;
 	height: 400px;
 	width: 500px;
 	}
@@ -118,7 +118,7 @@ body{
 	}
 @media only screen and (min-width: 900px){
 #vid{
-	margin-top: 5%;
+	margin-top: 3%;
 	height: 400px;
 	width: 800px;
 	}
@@ -140,7 +140,7 @@ body{
 
 	}
 #vid{
-	margin-top: 3%;
+	margin-top: 1%;
 	height: 400px;
 	width: 900px;
 	}
