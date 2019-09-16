@@ -57,7 +57,7 @@ function checkCss(){
 		 if (checkCss()) {
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 currentHtml.src = item;
-			 changeCss(css);
+			 change_css(css);
 		 } else { 
 		 //console.log("In the MAIN(COVER,ABOUT,DISCL,DOCUM) href of iframe is: " + currentHtml.href);
 		 currentHtml.src = item;
