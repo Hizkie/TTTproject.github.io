@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
 
 
-  body{
+  body @media (max-width: 900px) {{
 		border: 125px solid transparent;
                 border-image-source: url(../images/left_border.png);
                 border-image-slice: 0 0 0 200; 
@@ -69,4 +69,9 @@ main p{
 	font-size: 30px;
 
 
+}
+}
+
+body @media (max-width: 900px) {
+	background-color: black;
 }
