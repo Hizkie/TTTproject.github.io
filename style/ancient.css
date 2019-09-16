@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Almendra Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
 
-@media only screen and (max-width: 1200x){ body{
+body{
 	        border: 125px solid transparent;
                 border-image-source: url(../images/left_border.png);
                 border-image-slice: 0 0 0 200; 
@@ -10,8 +10,59 @@
                 margin-top: -125px;
                 margin-left: 5%;
                 background-color: #E7D1A2 !important;
-            }
+          
 }
+ @media only screen and (max-width: 600px){
+        body{
+            width: 550px;
+            height: 550px;
+            background-color: yellow !important;
+        }
+        img{
+            width: 300px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 10px;
+                    margin-left: 185px;
+                }
+    }
+  @media only screen and (min-width: 601px){
+        img{
+            width: 500px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 10px;
+                    margin-left: 185px;
+                }
+    }
+  @media only screen and (min-width: 900px){
+        img{
+            width: 700px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 10px;
+                    margin-left: 185px;
+                }
+
+    }
+    @media only screen and (min-width: 1000px){
+        body{
+            height: 1000px;
+        }
+        img{
+            width: 1100px !important;
+            margin-left: 100px !important;
+        }
+        figcaption{
+                    font-size: 15px;
+                    margin-left: 185px;
+
+                }
+
+    }
 
             h1{
                 text-align: center;
