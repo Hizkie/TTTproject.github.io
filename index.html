@@ -53,7 +53,6 @@ function checkCss(){
 	 </script>
 	 <script type="text/javascript">
 	 function changeHtml(item, callback){
-
 		 var currentHtml = document.getElementById("Iframe");
 		 
 		 if (checkCss()) {
@@ -185,7 +184,7 @@ function checkCss(){
   </header>
 
  <div id="content">
-    <iframe src="https://tttproject.github.io/cover/cover.html" width="100%" height="100%" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
+    <iframe src="https://tttproject.github.io/cover/cover.html" width="100%" height="100%" onLoad="console.log("iframe src is changed")" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
     </iframe>
 
   </div>
