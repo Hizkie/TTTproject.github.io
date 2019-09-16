@@ -22,8 +22,10 @@
 	// function checks if a css is already loaded returns True or False
 	// in the logic of WebSite if true html is changed else if false randomCss() is called
 function checkCss(){
-	var content = document.getElementById("Iframe");
-	console.log(content.contentWindow.document.getElementById("style").href);
+	var css = document.getElementById("Iframe").contentWindow.document.getElementById("style").href;
+	if (css == null) { return false; }
+	else { return true; }
+	
 }
 	 </script>
 	 
@@ -34,15 +36,33 @@ function checkCss(){
 	console.log(content.contentWindow.document.getElementById("style").href);
 }, false);
 	 </script>
-	 
+	 <script type="text/javascript">
+		 
+	 function randomCss(){
+		 var cssSheetsHref = ['https://tttproject.github.io/style/ancient.css',
+				     'https://tttproject.github.io/style/XIXcenturystyle.css',
+				      'https://tttproject.github.io/style/css_primo_novecento_finale.css',
+				      'https://tttproject.github.io/style/1950style.css',
+				      'https://tttproject.github.io/style/css_fine_novecento_finale.css'
+				     ]
+		 var randomIndex = Math.floor(Math.random()*6)
+		 return cssSheetsHref[randomIndex];
+	 }
+	 </script>
 	 <script type="text/javascript">
 	 function changeHtml(item){
-		 var homeHtmls = ["https://tttproject.github.io/"]; 
-		 
+
 		 var currentHtml = document.getElementById("Iframe");
 		 
+		 if (checkCss()) {
+			 var css = currentHtml.contentWindow.document.getElementById("style").href;
+			 currentHtml.src = item;
+			 changeCss(css);
+		 } else { 
 		 //console.log("In the MAIN(COVER,ABOUT,DISCL,DOCUM) href of iframe is: " + currentHtml.href);
 		 currentHtml.src = item;
+		 change_css(randomCss());
+		 } 
 	 }
 	 </script>
 	 
