@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Almendra Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Almendra&display=swap');
 
-@media (max-width: 900px) { body{
+@media only screen and (max-width: 900px){ body{
 	        border: 125px solid transparent;
                 border-image-source: url(../images/left_border.png);
                 border-image-slice: 0 0 0 200; 
