@@ -23,7 +23,7 @@
 	// in the logic of WebSite if true html is changed else if false randomCss() is called
 function checkCss(){
 	var css = document.getElementById("Iframe").contentWindow.document.getElementById("style").href;
-	if (css == null) { return false; }
+	if (css === "") { return false; }
 	else { return true; }
 	
 }
@@ -73,7 +73,6 @@ function checkCss(){
      
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		checkCss();
 		} else {
 		
 	// HERE WE MANAGE EU DIRECTIVE DOUBLE STYLE CHANGE (IT HAS 2 Iframe ELEMENT )
