@@ -171,7 +171,11 @@ font-size:0.9em;}
 		height: 500px;
 	}
 	main {/*
-	 	 	 	column-count: 1;
+	 	 	 	column
+		
+		
+		
+		t: 1;
 	column-gap: 0.3em ;
 	column-rule-style: solid;
 	column-rule-width: 1em;
@@ -387,14 +391,14 @@ header {
 height: 700px;}	
 	/* colonne */
 	main {
-	 	 	 	
-		-count: 2;
+	 	 /*	 	
+		column-count: 2;
 	column-gap: 0.3em ;
 	column-rule-style: solid;
 	column-rule-width: 1em;
 	column-rule-color: black;
 	column-rule: 1px solid black;}
-
+*/
 	
 	body {	/*magazine style rule*/
 	margin-top: 1em;
