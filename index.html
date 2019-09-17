@@ -44,7 +44,6 @@ function checkCss(){
 			console.log("IM THE PROMISE old DOCUMENT is: " + doc.src);
 			doc.onload = () => resolve(source);
 			doc.onerror = reject;
-			doc.contentWindow.document.getElementById("style").setAttribute("href",source);
 		} );
 				   }
 	 </script>
