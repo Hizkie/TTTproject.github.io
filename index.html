@@ -121,9 +121,9 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 			 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html',
 			 'https://tttproject.github.io/docs/Eu_directive/eu_directive.html',
 	];	
-	if (htmlPages.includes(currentHtml)] {	
-     	var content = document.getElementById("Iframe");
-        console.log("im change_css iv been called im gonna set css: " + item);
+	var content = document.getElementById("Iframe"); 	
+	if (htmlPages.includes(content)] {	
+     	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		console.log("im in the case not eudirective css must be changed");
