@@ -63,6 +63,24 @@ main p{
 
 
 }
+@media only screen and (max-width: 600px){
+        header{
+            width: 600px;
+            margin-left: -100px;
+        }
+        main{
+            width: 600px;
+            margin-left: -100px;
+        }
+        img{
+            width: 350px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 8px;
+                    margin-left: 185px;
+                }
+    }
   @media only screen and (min-width: 601px){
         header{
             width: 800px;
