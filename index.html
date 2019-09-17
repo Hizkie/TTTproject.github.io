@@ -37,7 +37,7 @@ function checkCss(){
 	function asyncChangeCss(source){
 		return new Promise((resolve, reject) => {
 			var doc = document.getElementById("Iframe");
-			console.log("IM THE PROMISE, I GOTTA SET CSS, FOR NEW DOCUMENT: '+doc.src);
+			console.log("IM THE PROMISE, I GOTTA SET CSS, FOR NEW DOCUMENT: "+doc.src);
 			doc.onload = resolve;
 			doc.onerror = reject;
 			doc.contentWindow.document.getElementById("style").setAttribute("href",source);
