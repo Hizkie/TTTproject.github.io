@@ -29,6 +29,12 @@ body{
                 font-size: 45px !important;
                 margin-left: 5%;
             }
+            h4{
+            	text-align: center;
+                font-family: Almendra;
+                font-size: 45px !important;
+                margin-left: 5%;
+            }
             header{
             	height: 120%;
             }
