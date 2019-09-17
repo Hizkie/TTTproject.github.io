@@ -202,7 +202,7 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 	*/
 	
 	
-	var iframe = document.frames("Iframe");
+	var iframe = document.frames["Iframe"];
 
 iframe.addEventListener("DOMAttrModified", function(event) {
     if (event.attrName == "src") {
