@@ -4,7 +4,7 @@
 
 body{
 	        border: 125px solid transparent !important;
-                border-image-source: url('../images/nuovo-bordo-alto.png') !important;
+                border-image-source: url('../images/left_border.png') !important;
                 border-image-slice: 0 0 0 200 !important; 
                 border-image-repeat: repeat !important;
                 background-color: #E7D1A2 !important;
@@ -63,7 +63,7 @@ figure{
 
 main p{
 	border: 125px solid transparent;
-    border-image-source: url(../images/nuovo-bordo-basso.png);
+    border-image-source: url(../images/border.png);
 	border-image-slice: 0 0 200 0; 
 	border-image-repeat: repeat;
 	font-size: 30px;
