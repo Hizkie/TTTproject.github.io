@@ -29,7 +29,7 @@ function checkCss(){
 				      'https://tttproject.github.io/style/css_fine_novecento_finale.css'];
 	
 	var css = document.getElementById("Iframe").contentWindow.document.getElementById("style").href;
-	if (cssStyleSheets.include(css)){ console.log("I'm check CSS i print true, there is css loaded: " + css); 
+	if (cssStyleSheets.includes(css)){ console.log("I'm check CSS i print true, there is css loaded: " + css); 
 		return true; } 
 	else { 	console.log("I'm checkCSS i print false, css loaded hasn't to be cached: so i call randomCss()  " + css); 
 		return false;} 
