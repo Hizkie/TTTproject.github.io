@@ -55,8 +55,7 @@ img{
 	margin-left: 10%;
 
 }
-main{
-height: 100%}
+
 figure{
 	height: 75%;
 }
@@ -76,6 +75,8 @@ main p{
             width: 600px;
             margin-left: 100px;
         }
+  body{
+	  height: 1000px}
         main{
             width: 600px;
             margin-left: 20px;
@@ -97,6 +98,7 @@ main p{
             width: 800px;
             margin-left: 200px;
         }
+
         main{
             width: 800px;
             margin-left: 200px;
