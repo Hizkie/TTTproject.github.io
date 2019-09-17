@@ -100,6 +100,14 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
   <script type="text/javascript">
 	   // Works with $.get too!
  	function change_css(item){
+	var htmlPages = ['https://tttproject.github.io/docs/bloomberg/index.html',
+			 'https://tttproject.github.io/docs/harpers/Harpers_Final.html',
+			 'https://tttproject.github.io/docs/huffington/Huffington_Final.html',
+			 'https://tttproject.github.io/docs/thecut/thecut.html',
+			 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html',
+			 'https://tttproject.github.io/docs/Eu_directive/eu_directive.html',
+	];	
+	if (htmlPages.includes(currentHtml)] {	
      	var content = document.getElementById("Iframe");
         console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
@@ -116,7 +124,14 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 		content_italian.contentWindow.document.getElementById("style").setAttribute("href",item);
 	}
  
-		
+	} else {
+		var randomhtml = randomHtml();
+		var doc = document.getElementById("Iframe");
+		doc.src = randomhtml;
+		change_css(item);
+		console.log("RECURSION NO STOP, doc.src doesn't apply before change_css is called again");
+	}
+	  }
 	 
 	 
      /*theme.href = item
