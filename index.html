@@ -27,8 +27,11 @@ function checkCss(){
 				      'https://tttproject.github.io/style/css_primo_novecento_finale.css',
 				      'https://tttproject.github.io/style/1950style.css',
 				      'https://tttproject.github.io/style/css_fine_novecento_finale.css'];
-	
+	if (document.getElementById("Iframe").contentWindow.document.getElementById("style") !== null) {
 	var css = document.getElementById("Iframe").contentWindow.document.getElementById("style").href;
+	} else {
+	var css = "no_css"; }
+	
 	if (cssStyleSheets.includes(css)){ console.log("I'm check CSS i print true, there is css loaded: " + css); 
 		return true; } 
 	else { 	console.log("I'm checkCSS i print false, css loaded hasn't to be cached: so i call randomCss()  " + css); 
