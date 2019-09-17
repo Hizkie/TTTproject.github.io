@@ -74,7 +74,7 @@ function checkCss(){
 			     console.log("im changeHtml, i check there is a css loaded, it's " + css);
 			 console.log("BEFORE THE CALLBACK");
 			 let promise = callback(css)
-			 promise.then(()=>{console.log('CSS MUST PERSIST IM THE ASYNC CALLBACK RESOLVED');}),e=>{console.log('im async change css callback in reject, error: '+e);});
+			 promise.then(()=>{console.log('CSS MUST PERSIST IM THE ASYNC CALLBACK RESOLVED');},e=>{console.log('im async change css callback in reject, error: '+e);});
 			console.log("AFTER THE CALLBACK");
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 console.log("CSS IS " + css + " IT come RESETTED after this function close WTF"); 
