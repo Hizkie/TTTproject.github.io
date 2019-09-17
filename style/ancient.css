@@ -84,8 +84,8 @@ main p{
             margin-left: -100px;
         }
         img{
-            width: 250px !important;
-            margin-left: 120px !important;
+            width: 500px !important;
+            margin-left: -5px !important;
         }
         figcaption{
                     font-size: 8px;
@@ -102,8 +102,8 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 200px !important;
-            margin-left: 120px !important;
+            width: 500px !important;
+            margin-left: -5px !important;
         }
         figcaption{
                     font-size: 12px;
@@ -120,7 +120,7 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 400px !important;
+            width: 700px !important;
             margin-left: 120px !important;
         }
         figcaption{
