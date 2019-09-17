@@ -75,7 +75,7 @@ function checkCss(){
 			 console.log("im changing html, current page is: " + currentHtml.src);
 			 console.log("BEFORE THE CALLBACK");
 			 let promise = callback(css);
-			 promise.then(source =>{document.getElementById("Iframe").contentWindow.document.getElementById("style").setAttribute("href",source);},e=>{console.log('im async change css callback in reject, error: ' + e);});
+			 promise.then(source =>{document.getElementById("Iframe").contentWindow.document.getElementById("style").setAttribute("href",source);},e=>{console.log('im async change css callback in reject, error: ' + e);});         
 			console.log("AFTER THE CALLBACK");
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
 			 console.log("CSS IS " + css + " IT come RESETTED after this function close WTF"); 
@@ -84,10 +84,11 @@ function checkCss(){
 		 } else { 
 
 		 currentHtml.src = item;
-		var random_css = randomCss();	 
+		var random_css = randomCss();
+		let promise = callback(css);
+		promise.then(source => {document.getElementById("Iframe").contentWindow.document.getElementById("style").setAttribute("href",source);},e=>{console.log('im async change css callback in reject, error: ' + e);});
 		 
-                console.log("im change HTML, i check there isn't a css loaded, i generate it random it's " + random_css); 
-		callback(random_css);
+console.log("Im EXITING FROM RANDOM CHANGE HTML");
 		 } 
 	 }
 	 </script>
