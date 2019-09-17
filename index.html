@@ -71,7 +71,7 @@ function checkCss(){
 			 console.log("im changeHtml, i check there is a css loaded, it's, i save it and pass to the callback " + css);
 			 console.log("im changing html, current page is: " + currentHtml.src);
 			 console.log("BEFORE THE CALLBACK");
-			 let promise = callback(css)
+			 let promise = callback(css);
 			 promise.then(()=>{console.log('CSS MUST PERSIST IM THE ASYNC CALLBACK RESOLVED');},e=>{console.log('im async change css callback in reject, error: '+e);});
 			console.log("AFTER THE CALLBACK");
 			 var css = currentHtml.contentWindow.document.getElementById("style").href;
