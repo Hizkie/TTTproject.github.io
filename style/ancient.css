@@ -84,15 +84,15 @@ main p{
   @media only screen and (min-width: 601px){
         header{
             width: 800px;
-            margin-left: 100px;
+            margin-left: 200px;
         }
         main{
             width: 800px;
-            margin-left: 100px;
+            margin-left: 200px;
         }
         img{
             width: 600px !important;
-            margin-left: 120px !important;
+            margin-left: 220px !important;
         }
         figcaption{
                     font-size: 12px;
