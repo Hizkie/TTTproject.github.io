@@ -73,7 +73,7 @@ main p{
 }
 
 p::first-letter {
-  font-size: 4rem;
+  font-size: 6rem;
     font-family: 'UnifrakturMaguntia', cursive;
 }
 
