@@ -187,7 +187,22 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
   </script>
 	 
 <script type="text/javascript">
-var iframe = document.getElementById("Iframe");
+function checkFrame() {
+ /*      var iframe = document.frames['ID_OF_IFRAME'];
+
+
+        if(iframe == null) alert('Frame not found');
+        else {
+            if(iframe.document == null)
+                alert('Frame exists, but page has not yet loaded');
+            else
+                alert('Frame exists, and page is loaded!');
+        }
+    }
+	*/
+	
+	
+	var iframe = document.frames("Iframe");
 
 iframe.addEventListener("DOMAttrModified", function(event) {
     if (event.attrName == "src") {
@@ -252,7 +267,7 @@ iframe.addEventListener("DOMAttrModified", function(event) {
   </header>
 
  <div id="content">
-    <iframe src="https://tttproject.github.io/cover/cover.html" width="100%" height="100%" onLoad="alert('iframe src is changed');" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
+    <iframe src="https://tttproject.github.io/cover/cover.html" width="100%" height="100%" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
     </iframe>
 
   </div>
