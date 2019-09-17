@@ -66,6 +66,20 @@ function checkCss(){
 	 }
 	 </script>
 	 <script type="text/javascript">
+	 function randomHtml(){
+		 	var htmlPages = ['https://tttproject.github.io/docs/bloomberg/index.html',
+			 'https://tttproject.github.io/docs/harpers/Harpers_Final.html',
+			 'https://tttproject.github.io/docs/huffington/Huffington_Final.html',
+			 'https://tttproject.github.io/docs/thecut/thecut.html',
+			 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html'
+					 ]
+			var randomindex = Math.floor(Math.random()*6);
+		 console.log("im randomHtml i work i return " + htmlPages[randomindex]);
+		return htmlPages[randomindex];					 
+		 
+	 }
+	 </script>
+	 <script type="text/javascript">
 	 function changeHtml(item, callback){
 		 var currentHtml = document.getElementById("Iframe");
 		 
