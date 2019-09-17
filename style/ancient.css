@@ -10,56 +10,7 @@ body{
                 background-color: #E7D1A2 !important;
           
 }
- @media only screen and (max-width: 600px){
-        body{
-            width: 550px;
-            height: 550px;
-        }
-        img{
-            width: 300px !important;
-            margin-left: 120px !important;
-        }
-        figcaption{
-                    font-size: 10px;
-                    margin-left: 185px;
-                }
-    }
-  @media only screen and (min-width: 601px){
-        img{
-            width: 500px !important;
-            margin-left: 120px !important;
-        }
-        figcaption{
-                    font-size: 10px;
-                    margin-left: 185px;
-                }
-    }
-  @media only screen and (min-width: 900px){
-        img{
-            width: 700px !important;
-            margin-left: 120px !important;
-        }
-        figcaption{
-                    font-size: 10px;
-                    margin-left: 185px;
-                }
 
-    }
-    @media only screen and (min-width: 1000px){
-        body{
-            height: 1000px;
-        }
-        img{
-            width: 1100px !important;
-            margin-left: 100px !important;
-        }
-        figcaption{
-                    font-size: 15px;
-                    margin-left: 185px;
-
-                }
-
-    }
 
             h1{
                 text-align: center;
@@ -112,7 +63,66 @@ main p{
 
 
 }
+  @media only screen and (min-width: 601px){
+        header{
+            width: 800px;
+            margin-left: -100px;
+        }
+        main{
+            width: 800px;
+            margin-left: -100px;
+        }
+        img{
+            width: 600px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 12px;
+                    margin-left: 185px;
+                }
+    }
+  @media only screen and (min-width: 900px){
+            header{
+            width: 1000px;
+            margin-left: -200px;
+        }
+        main{
+            width: 900px;
+            margin-left: -200px;
+        }
+        img{
+            width: 600px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 14px;
+                    margin-left: 185px;
+                }
+
+    }
+    @media only screen and (min-width: 1000px){
+        header{
+            width: 1000px;
+            margin-left: 100px;
+        }
+        main{
+            width: 1000px;
+            margin-left: 100px;
+        }
+        p {
+            margin-top: 80px;
+        }
+        img{
+            width: 700px !important;
+            margin-left: 120px !important;
+        }
+        figcaption{
+                    font-size: 17px;
+                    margin-left: 185px;
 
 
+                }
+
+    }
 
 
