@@ -63,13 +63,13 @@ body{
 
             h1{
                 text-align: center;
-                font-family: Almendra SC;
+                font-family: 'Almendra SC';
                 font-size: 85px !important;
 
             }
             h2{
             	 text-align: center;
-                font-family: Almendra Display;
+                font-family: 'Almendra Display';
                 font-size: 60px !important;
             }
             h3{
@@ -89,7 +89,6 @@ body{
       }
 main{
 	font-family: Almendra;
-	font-height: 1.5px;
 	text-align: justify;
 
 }
