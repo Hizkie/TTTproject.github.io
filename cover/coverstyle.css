@@ -4,9 +4,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    margin-top: -1%;
-    margin-bottom: -1%;
-
 }
 
 .context {
@@ -22,8 +19,9 @@
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height: auto;
-    
-   
+    margin-top: -2%;
+        margin-bottom: -2%;
+
 }
 
 .circles{
