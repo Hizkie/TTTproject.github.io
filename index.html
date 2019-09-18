@@ -20,8 +20,10 @@
 <script type="text/javascript">
 
 	function removeFuturElements() {
+		if (document.getElementById("Iframe") !== null && document.getElementById("Iframe").contentWindow.document.getElementById("vid") !== null)) {
 		var doc = document.getElementById("Iframe").contentWindow.document.getElementById("vid");
 		doc.remove();
+		}
 	}
 	
 function startLoading() {	
