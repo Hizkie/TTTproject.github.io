@@ -179,6 +179,15 @@ font-size:0.9em;}
 
 @media (min-width: 400px) {
 	
+	header figure img {
+	  max-width:200px;
+	 max-height: auto;
+	}
+	header figure {
+		  max-width:200px;
+	 max-height: auto;
+	}
+	
 	header   {
 		height: 500px;
 	}
@@ -398,7 +407,15 @@ footer a:visited {
 color: purple;}
 }
 @media (min-width: 600px) {
-
+	header figure img {
+	  max-width:400px;
+	 max-height: auto;
+	}
+	header figure {
+		  max-width:400px;
+	 max-height: auto;
+	}
+	
 header {
 height: 700px;}	
 	/* colonne */
