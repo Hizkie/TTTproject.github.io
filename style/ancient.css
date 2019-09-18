@@ -85,7 +85,7 @@ main p{
         }
         figcaption{
                     font-size: 8px;
-                    margin-left: 130px;
+                    margin-left: 120px;
                 }
     }
   @media only screen and (min-width: 601px){
@@ -102,8 +102,8 @@ main p{
             margin-left: 120px !important;
         }
         figcaption{
-                    font-size: 8px;
-                    margin-left: 185px;
+                    font-size: 10px;
+                    margin-left: 120px;
                 }
     }
   @media only screen and (min-width: 900px){
@@ -120,8 +120,8 @@ main p{
             margin-left: 160px !important;
         }
         figcaption{
-                    font-size: 8px;
-		    text-align: center;
+                    font-size: 12px;
+		    text-align: 160px;
                 }
 
     }
@@ -142,8 +142,8 @@ main p{
             margin-left: 250px !important;
         }
         figcaption{
-                    font-size: 10px;
-		    text-align: center;
+                    font-size: 14px;
+		    text-align: 250px;
 
 
                 }
