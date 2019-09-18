@@ -23,13 +23,11 @@ p::first-letter {
 }
   
          h1{
-                text-align: center;
                 font-family: Almendra SC;
                 font-size: 85px;
 
             }
             h2{
-            	 text-align: center;
                 font-family: Almendra Display;
                 font-size: 60px;
             }
@@ -39,13 +37,11 @@ p::first-letter {
                 font-size: 45px;
             }
             h4{
-                text-align: center;
                 font-family: Almendra;
                 font-size: 45px;
             }
 
             header p{
-            	text-align: center;
                 font-family: Almendra;
                 font-size: 40px;
                 font-weight: bold;
@@ -66,19 +62,15 @@ main p{
 	border-image-slice: 0 0 200 0; 
 	border-image-repeat: repeat;
 	font-size: 30px;
-	margin-left: 0px !important;
 }
 @media only screen and (max-width: 600px){
-        body{
-                margin-left: -100px;
 
-        }
         header{
             width: 300px;
-	    margin-left: 0px !important;
+	    margin-left: -100px !important;
         }
         main{
-	    margin-left: 0px !important;
+	    margin-left: -100px !important;
             width: 500px;
         }
         img{
