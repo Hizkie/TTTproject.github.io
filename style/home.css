@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display=swap');
 
-div #loading {
+div#loading {
 	  background-image: url("tttproject.github.io/documentation/images/black_denim.jpg");
   z-index: 3;	
  height: 100%;
