@@ -21,14 +21,19 @@
 function startLoading() {	
 var loading_style = "position:absolute;width:100%;height:100%";	
 var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);
+console.log("im startLoading() i start the laoding");
 }
 function finishLoading() {
 var loading_style ="widht:100%;height:100%";
-var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);	
+var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);
+console.log("im finishLoading() i finished to load");
 }
 function loadingPages() {
+	console.log("im loadingPages() i call startLoading") 
 	startLoading();
-	setTimeOut(finsihLoading(),1000);  //1000 ms = 1 s of loading change this value to set loading time
+	console.log("i set TimeOut and exit")
+	setTimeOut(finsihLoading(),2000);  //1000 ms = 1 s of loading change this value to set loading time
+	console.log("im loadingPages i go out");
 }
 	 </script>
 	 
