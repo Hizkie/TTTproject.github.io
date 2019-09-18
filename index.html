@@ -17,7 +17,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="script/1.js"></script> 
 
-
+<script type="text/javascript">
+let loading_style = "position:absolute;width:100%;height:100%";	
+let loading_cover = document.getElementById("loading").setAttribute("style", loading_style);
+	
+	 </script>
 	 
 	 
 <script type="text/javascript">
@@ -235,12 +239,12 @@ iframe.addEventListener("DOMAttrModified", function(event) {
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Style
     <span class="caret"></span></button> 
     <ul class="dropdown-menu">
-      <li><a href="#" onclick="change_css('https://tttproject.github.io/style/ancient.css')">Before 1500</a></li>
+      <li><a href="#" onclick="change_css('https://tttproject.github.io/style/ancient.css')">Before 1500AC</a></li>
       <li><a href="#" onclick="change_css('https://tttproject.github.io/style/XIXcenturystyle.css')">XIX Century</a></li>
       <li><a href="#" onclick="change_css('https://tttproject.github.io/style/css_primo_novecento_finale.css')">First half of the XX Century</a></li>
       <li><a href="#" onclick="change_css('https://tttproject.github.io/style/1950style.css')">Second half of the XX Century</a></li>
       <li><a href="#" onclick="change_css('https://tttproject.github.io/style/css_fine_novecento_finale.css')">Late XX Century</a></li>
-      <li><a href="#" onclick ="add_script('../../style/slide.css','../../js/new.js')">2040: the Future</a></li>
+      <li><a href="#" onclick ="add_script('../../style/slide.css','../../js/new.js')">Future</a></li>
     </ul>
   </div></div>
     <div class="col-sm-5">
@@ -262,7 +266,7 @@ iframe.addEventListener("DOMAttrModified", function(event) {
 
   </header>
 
-<img src="https://tttproject.github.io/documentation/images/black_denim.jpg" style="height:0%;width:0%"> 
+<img src="https://tttproject.github.io/documentation/images/black_denim.jpg" style="height:0%;width:0%" id="loading"> 
  <div id="content">
 
     <iframe src="https://tttproject.github.io/cover/cover.html" width="100%" height="100%" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
