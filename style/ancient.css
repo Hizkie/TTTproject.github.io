@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap');
 
 
-  body{ 
+  body{
                 border: 125px solid transparent;
                 border-image-source: url('../images/left_border.png');
                 border-image-slice: 0 0 0 200; 
@@ -81,9 +81,8 @@ main p{
         }
         img{
             width: 250px !important;
-            position: absolute;
-    	    margin: auto;
-	}
+            margin-left: 120px !important;
+        }
         figcaption{
                     font-size: 8px;
                     margin-left: 130px;
@@ -100,8 +99,8 @@ main p{
         }
         img{
             width: 250px !important;
-            position: absolute;
-    	    margin: auto;        }
+            margin-left: 120px !important;
+        }
         figcaption{
                     font-size: 8px;
                     margin-left: 185px;
@@ -118,8 +117,7 @@ main p{
         }
         img{
             width: 400px !important;
-            position: absolute;
-    	    margin: auto;
+            margin-left: 160px !important;
         }
         figcaption{
                     font-size: 8px;
@@ -141,8 +139,8 @@ main p{
         }
         img{
 	    width: 600px !important;
-            position: absolute;
-    	    margin: auto;        }
+            margin-left: 250px !important;
+        }
         figcaption{
                     font-size: 10px;
 		    text-align: center;
