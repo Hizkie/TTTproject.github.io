@@ -96,7 +96,7 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 600px !important;
+            width: 500px !important;
             margin-left: -5px !important;
         }
         figcaption{
@@ -136,8 +136,8 @@ main p{
             margin-top: 80px;
         }
         img{
-            width: 700px !important;
-            margin-left: 120px !important;
+            width: 1200px !important;
+            margin-left: 5px !important;
         }
         figcaption{
                     font-size: 17px;
