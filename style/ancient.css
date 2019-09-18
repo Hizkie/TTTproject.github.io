@@ -78,8 +78,8 @@ main p{
             margin-left: -100px;
         }
         img{
-            width: 500px !important;
-            margin-left: -5px !important;
+            width: 300px !important;
+            margin-left: auto !important;
         }
         figcaption{
                     font-size: 8px;
@@ -96,7 +96,7 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 500px !important;
+            width: 400px !important;
             margin-left: -5px !important;
         }
         figcaption{
@@ -114,8 +114,8 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 700px !important;
-            margin-left: 120px !important;
+            width: 500px !important;
+            margin-left: auto !important;
         }
         figcaption{
                     font-size: 10px;
@@ -136,8 +136,8 @@ main p{
             margin-top: 80px;
         }
         img{
-            width: 1200px !important;
-            margin-left: 5px !important;
+            width: 600px !important;
+            margin-left: auto !important;
         }
         figcaption{
                     font-size: 17px;
