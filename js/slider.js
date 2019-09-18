@@ -38,18 +38,6 @@ $(document).ready(function() {
  	let video = document.createElement('div');
 	video.setAttribute("id", "vid");
 	document.body.appendChild(video);
-	let box = document.createElement('div');
-	box.setAttribute("class", "box");
-	document.body.appendChild(box);
-	let wave1 = document.createElement('div');
-	wave1.setAttribute("class", "wave -one");
-	document.box.appendChild(wave1);
-	let wave2 = document.createElement('div');
-	wave2.setAttribute("class", "wave -two");
-	document.box.appendChild(wave2);
-	let wave3 = document.createElement('div');
-	wave3.setAttribute("class", "wave -three");
-	document.box.appendChild(wave3);
 	let headerv = document.createElement('div');
 	headerv.setAttribute("id", "headerVd");
 	video.appendChild(headerv);
