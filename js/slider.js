@@ -38,6 +38,12 @@ $(document).ready(function() {
  	let video = document.createElement('div');
 	video.setAttribute("id", "vid");
 	document.body.appendChild(video);
+	let back = document.createElement('div');
+	back.setAttribute("id", "back");
+	document.body.appendChild(back);
+	let front = document.createElement('div');
+	video.setAttribute("id", "front");
+	document.body.appendChild(front);
 	let headerv = document.createElement('div');
 	headerv.setAttribute("id", "headerVd");
 	video.appendChild(headerv);
