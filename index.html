@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="script/1.js"></script> 
 
   <title>Home</title>
 <script type="text/javascript">
@@ -37,7 +38,6 @@ function checkCss(){
 		return false;} 
 }
 	
-
 </script>
 	 	 <script type="text/javascript">
 	function asyncChangeCss(source){
@@ -63,7 +63,6 @@ function checkCss(){
 		 var randomIndex = Math.floor(Math.random()*5);
 		 console.log("im randomCss i work i return "+ cssSheetsHref[randomIndex] + " random index is " + randomIndex);
 		 return cssSheetsHref[randomIndex];
-
 	 }
 	 </script>
 	 <script type="text/javascript">
@@ -105,7 +104,6 @@ function checkCss(){
           
 			
 		 } else { 
-
 		 currentHtml.src = item;
 		var random_css = randomCss();
 		let promise = callback(random_css);
@@ -169,28 +167,24 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 	content.contentWindow.document.head.appendChild(imported);*/
 	var content = document.getElementById("Iframe");
 	content.contentWindow.document.getElementById("style").setAttribute("href",item)
-
 	//	  	var ele = content.contentWindow.document.getElementById("scri").getAttribute("href"); // sec/IF00.html
 	//alert(ele)
      	//content.contentWindow.document.getElementById('scri').src = script
 	//var ele = content.contentWindow.document.getElementById("scri").getAttribute("src");
 	//alert(ele)
-			  
+		  
 		element = content.contentWindow.document.createElement("script"); 
-		element.src = 'js/new.js' 
+		element.src = '../../js/new.js' 
 		element.type = "text/javascript"; 
 		element.id = "scriptid"; 
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
-		  
-			  
+	  
 	  }
   </script>
 	 
 <script type="text/javascript">
 /*function checkFrame() {
        var iframe = document.frames['ID_OF_IFRAME'];
-
-
         if(iframe == null) alert('Frame not found');
         else {
             if(iframe.document == null)
@@ -203,7 +197,6 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 	
 	
 	var iframe = document.frames["Iframe"];
-
 iframe.addEventListener("DOMAttrModified", function(event) {
     if (event.attrName == "src") {
        console.log("im the event listener ");
