@@ -2,7 +2,6 @@
 
 body{
             	font-family: 'Press Start 2P', cursive;
-    background-color: #0e6cc4;
 
 }
             p{
@@ -96,7 +95,7 @@ body{
 }
 #bodyvid{
 	height:150px;		
-	font-size: 8px;
+	font-size: 4px;
 
 	
 }
@@ -118,7 +117,7 @@ body{
 }
 #bodyvid{
 	height:300px;
-	font-size: 12px;
+	font-size: 8px;
 
 }
 	}
@@ -139,7 +138,7 @@ body{
 }
 #bodyvid{
 	height:400px;
-	font-size: 17px;
+	font-size: 10px;
 
 }
 	}
@@ -160,7 +159,7 @@ body{
 }
 #bodyvid{
 	height:400px;
-	font-size: 17px;
+	font-size: 12px;
 
 }}
 * {
