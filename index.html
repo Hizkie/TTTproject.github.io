@@ -28,7 +28,7 @@
 	 </script>
 <script type="text/javascript">	 
 function startLoading() {	
-var loading_style = "position:absolute;width:100%;height:100%;object-fit:cover";	
+var loading_style = "position:absolute;width:100%;height:100%";	
 var loading_cover = document.getElementById("loading");
 console.log("before load set:");
 console.log(loading_cover.attributes);
@@ -172,7 +172,7 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 			 'https://tttproject.github.io/docs/Eu_directive/eu_directive.html',
 	];
 	loadingPages();	
-	/*removeFuturElements();*/
+	removeFuturElements();
 	var content = document.getElementById("Iframe"); 	
 	if (htmlPages.includes(content.src)) {	
      	        console.log("im change_css iv been called im gonna set css: " + item);
