@@ -133,6 +133,7 @@ body{
                 width: inherit;
                 height: 50px;
                 background-color: gray;
+		opacity: 0.8;
             }
             #bodyvid{
                 padding: 3%;
@@ -150,6 +151,7 @@ body{
                 width: inherit;
                 height: 50px;
                 background-color: gray;
+		opacity: 0.8;
             }
 
             #clicks{
