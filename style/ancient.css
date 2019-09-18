@@ -78,12 +78,12 @@ main p{
             margin-left: -100px;
         }
         img{
-            width: 300px !important;
-            margin-left: -100px !important;
+            width: 250px !important;
+            margin-left: 120px !important;
         }
         figcaption{
                     font-size: 8px;
-                    margin-left: 185px;
+                    margin-left: 130px;
                 }
     }
   @media only screen and (min-width: 601px){
@@ -96,8 +96,8 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 400px !important;
-            margin-left: -5px !important;
+            width: 250px !important;
+            margin-left: 120px !important;
         }
         figcaption{
                     font-size: 12px;
@@ -114,12 +114,12 @@ main p{
             margin-left: -5px;
         }
         img{
-            width: 500px !important;
-            margin-left: 1000px !important;
+            width: 400px !important;
+            margin-left: 160px !important;
         }
         figcaption{
                     font-size: 10px;
-                    margin-left: 150px;
+                    margin-left: 220px;
                 }
 
     }
@@ -136,12 +136,12 @@ main p{
             margin-top: 80px;
         }
         img{
-            width: 600px !important;
-            margin-left: 5px !important;
+	    width: 600px !important;
+            margin-left: 250px !important;
         }
         figcaption{
                     font-size: 17px;
-                    margin-left: 185px;
+                    margin-left: 350px;
 
 
                 }
