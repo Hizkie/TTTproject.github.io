@@ -104,6 +104,7 @@ main p{
         figcaption{
                     font-size: 10px;
                     margin-left: 120px;
+		    width: 120px;
                 }
     }
   @media only screen and (min-width: 900px){
@@ -121,7 +122,8 @@ main p{
         }
         figcaption{
                     font-size: 12px;
-		    text-align: 160px;
+		    margin-left: 160px;
+		    width: 400px;
                 }
 
     }
@@ -143,7 +145,8 @@ main p{
         }
         figcaption{
                     font-size: 14px;
-		    text-align: 250px;
+		    margin-left: 250px;
+		    width: 600px;
 
 
                 }
