@@ -23,7 +23,7 @@ content{
 header{
 	width: 100%;
 	height: 50px;
-	background-color: #2F87BF;
+	background-color: #84929c;
 
 	color: white;
 
@@ -46,7 +46,7 @@ header li a {
 
 /* Change the link color to #111 (black) on hover */
 header li a:hover {
-   background-color: #2B79AB;
+   background-color: #4f585e;
    cursor: pointer; 
    text-decoration: none;
 
