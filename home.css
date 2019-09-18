@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display=swap');
 
+#content
+{
+	background-image: url("tttproject.github.io/documentation/images/black_denim.jpg");
+}
+
 html {
     height: 100%;
 }
