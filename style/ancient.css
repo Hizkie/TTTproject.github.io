@@ -28,11 +28,12 @@ margin-left: 120px}
          h1{
                 font-family: Almendra SC;
                 font-size: 85px;
-
+		text-align: center;
             }
             h2{
                 font-family: Almendra Display;
                 font-size: 60px;
+	        text-align: center;
             }
             h3{
             	text-align: center;
@@ -40,6 +41,7 @@ margin-left: 120px}
                 font-size: 45px;
             }
             h4{
+     		text-align: center;
                 font-family: Almendra;
                 font-size: 45px;
             }
