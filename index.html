@@ -18,9 +18,17 @@
   <script src="script/1.js"></script> 
 
 <script type="text/javascript">
-function loadingPages() {	
+function startLoading() {	
 var loading_style = "position:absolute;width:100%;height:100%";	
 var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);
+}
+function finishLoading() {
+var loading_style ="widht:100%;height:100%";
+var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);	
+}
+function loadingPages() {
+	startLoading();
+	setTimeOut(finsihLoading(),1000);  //1000 ms = 1 s of loading change this value to set loading time
 }
 	 </script>
 	 
@@ -94,6 +102,8 @@ function checkCss(){
 		 
 	 <script type="text/javascript">
 	 function changeHtml(item, callback){
+		 loadingPages();  //start loading
+		 
 		 var currentHtml = document.getElementById("Iframe");
 		 
 		 if (checkCss()) {
