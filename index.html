@@ -20,13 +20,13 @@
 <script type="text/javascript">
 
 	function removeFuturElements() {
-		if (document.getElementById("Iframe") !== null && document.getElementById("Iframe").contentWindow.document.getElementById("vid") !== null)) {
+		if (document.getElementById("Iframe") !== null && document.getElementById("Iframe").contentWindow.document.getElementById("vid") !== null) {
 		var doc = document.getElementById("Iframe").contentWindow.document.getElementById("vid");
 		doc.remove();
 		}
 	}
 	 </script>
-<script type=text/javascript">	 
+<script type="text/javascript">	 
 function startLoading() {	
 var loading_style = "position:absolute;width:100%;height:100%;object-fit:cover";	
 var loading_cover = document.getElementById("loading");
@@ -38,6 +38,7 @@ var after_set = document.getElementById("loading");
 console.log("after load set:");
 console.log(after_set.attributes);
 }
+			
 function finishLoading() {
 var loading_style ="position:absolute;width:0%;height:0%";
 var loading_cover = document.getElementById("loading");
