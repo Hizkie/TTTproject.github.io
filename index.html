@@ -30,7 +30,7 @@ console.log("after load set:");
 console.log(after_set.attributes);
 }
 function finishLoading() {
-var loading_style ="width:0%;height:0%";
+var loading_style ="position:absolute;width:0%;height:0%";
 var loading_cover = document.getElementById("loading");
 console.log(" right before the timer trigger");
 console.log(loading_cover.attributes);	
@@ -198,6 +198,7 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 	var imported = document.createElement('script');
 	imported.src = 'js/new.js';
 	content.contentWindow.document.head.appendChild(imported);*/
+	loadingPages();
 	var content = document.getElementById("Iframe");
 	content.contentWindow.document.getElementById("style").setAttribute("href",item)
 	//	  	var ele = content.contentWindow.document.getElementById("scri").getAttribute("href"); // sec/IF00.html
@@ -215,27 +216,7 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 	  }
   </script>
 	 
-<script type="text/javascript">
-/*function checkFrame() {
-       var iframe = document.frames['ID_OF_IFRAME'];
-        if(iframe == null) alert('Frame not found');
-        else {
-            if(iframe.document == null)
-                alert('Frame exists, but page has not yet loaded');
-            else
-                alert('Frame exists, and page is loaded!');
-        }
-    }
-	*/
-	
-	
-	var iframe = document.frames["Iframe"];
-iframe.addEventListener("DOMAttrModified", function(event) {
-    if (event.attrName == "src") {
-       console.log("im the event listener ");
-    }
-});
-</script>
+
 	
  </head>
  <body style="">
@@ -293,7 +274,7 @@ iframe.addEventListener("DOMAttrModified", function(event) {
 
   </header>
 
-<img src="https://tttproject.github.io/loading_img/melt-line.gif" style="height:0%;width:0%" id="loading"> 
+<img src="https://tttproject.github.io/loading_img/melt-line.gif" style="height:0%;width:0%;position:absolute" id="loading"> 
  <div id="content">
 
     <iframe src="https://tttproject.github.io/cover/cover.html" width="100%" height="100%" id="Iframe" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" >
