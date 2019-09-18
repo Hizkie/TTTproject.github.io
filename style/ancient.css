@@ -10,7 +10,7 @@
                 border-image-repeat: repeat;
                 background-color: #E7D1A2 !important;
                 margin-left: 25px;
-	  	margin-top: 10px;
+	  	margin-top: -10px;
             }
         
 p::first-letter {
