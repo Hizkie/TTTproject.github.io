@@ -8,6 +8,7 @@
 
 body {
   background-image: url("../images/background10.jpg");
+  background-attachment: fixed;
   background-size: contain;
   margin-right: 5%;
   margin-left: 5%;
