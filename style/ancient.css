@@ -115,7 +115,7 @@ main p{
         }
         img{
             width: 500px !important;
-            margin-left: -5px !important;
+            margin-left: 1000px !important;
         }
         figcaption{
                     font-size: 10px;
@@ -137,7 +137,7 @@ main p{
         }
         img{
             width: 600px !important;
-            margin-left: 1000px !important;
+            margin-left: 5px !important;
         }
         figcaption{
                     font-size: 17px;
