@@ -21,10 +21,9 @@ p::first-letter {
    line-height: 70px;
 
 }
-img{
+img, figcaption, header{
 margin-left: 120px}
-header{
-margin-left: 120px}
+
          h1{
                 font-family: Almendra SC;
                 font-size: 85px;
