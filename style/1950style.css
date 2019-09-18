@@ -15,26 +15,52 @@ p {
  }
 
 body {
-      animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+      animation: colorchange 180s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 50s; /* Chrome and Safari */
+      -webkit-animation: colorchange 180s; /* Chrome and Safari */
     }
 
     @keyframes colorchange
     {
       0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: green;}
+      6%  {background: orange;}
+      12%  {background: yellow;}
+      18%  {background: purple;}
+      25%  {background: blue;}
+      33%  {background: #05f9f1;}
+      39%  {background: green;}
+      45%  {background: #00ff32;}
+      50%  {background: red;}
+      56%  {background: red;}
+      62%  {background: orange;}
+      68%  {background: yellow;}
+      74%  {background: purple;}
+      80%  {background: blue;}
+      86%  {background: #05f9f1;}
+      91%  {background: green;}
+      95%  {background: #00ff32;}
       100% {background: red;}
     }
 
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
     {
       0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: green;}
+      6%  {background: orange;}
+      12%  {background: yellow;}
+      18%  {background: purple;}
+      25%  {background: blue;}
+      33%  {background: #05f9f1;}
+      39%  {background: green;}
+      45%  {background: #00ff32;}
+      50% {background: red;}
+      56%   {background: red;}
+      62%  {background: orange;}
+      68%  {background: yellow;}
+      74%  {background: purple;}
+      80%  {background: blue;}
+      86%  {background: #05f9f1;}
+      91%  {background: green;}
+      95%  {background: #00ff32;}
       100% {background: red;}
     }
 
