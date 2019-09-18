@@ -17,7 +17,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="script/1.js"></script> 
 
-
+<script type="text/javascript">
+function loadingPages() {	
+var loading_style = "position:absolute;width:100%;height:100%";	
+var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);
+}
+	 </script>
 	 
 <script type="text/javascript">
 	// function checks if a css is already loaded returns True or False
@@ -330,10 +335,6 @@ iframe.addEventListener("DOMAttrModified", function(event) {
           document.getElementById('style').setAttribute('href', item)
   }
  </script>
-<script type="text/javascript">
-var loading_style = "position:absolute;width:100%;height:100%";	
-var loading_cover = document.getElementById("loading").setAttribute("style", loading_style);
-	
-	 </script>
+
 	 	
 </html>
