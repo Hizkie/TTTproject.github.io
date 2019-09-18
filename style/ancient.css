@@ -21,7 +21,8 @@ p::first-letter {
    line-height: 70px;
 
 }
-  
+img{
+margin-left: 0px}
          h1{
                 font-family: Almendra SC;
                 font-size: 85px;
@@ -67,7 +68,7 @@ main p{
 
         header{
             width: 300px;
-	    margin-left: -100px !important;
+	    margin-left: -80px !important;
         }
         main{
 	    margin-left: -100px !important;
@@ -83,7 +84,7 @@ main p{
   @media only screen and (min-width: 601px){
         header{
             width: 500px;
-	    	    margin-left:-100px !important;
+	    	    margin-left:-80px !important;
 
         }
         main{
@@ -93,6 +94,7 @@ main p{
         }
         img{
             width: 250px !important;
+	    
         }
         figcaption{
                     font-size: 10px;
@@ -102,7 +104,7 @@ main p{
   @media only screen and (min-width: 900px){
             header{
             width: 700px;
-	    margin-left: -100px !important;
+	    margin-left: -80px !important;
 
         }
         main{
@@ -122,7 +124,7 @@ main p{
     @media only screen and (min-width: 1000px){
         header{
             width: 1100px;
-	    margin-left: -100px !important;
+	    margin-left: -80px !important;
 
         }
         main{
