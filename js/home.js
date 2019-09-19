@@ -132,17 +132,20 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	let href = content.src; // uri of original file 
+	var href = content.src; // uri of original file 
 	
-	content.src = href;
-	//myReq.open('GET', href);
+
+	
+	if (htmlPages.includes(content.src)) {	
+		// AJAX REQUEST
+			myReq = new XMLHttpRequest();	
+	
+	myReq.open('GET', href, false);
+	myReq.send();
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
-	alert(href)
-	
-	
-	if (htmlPages.includes(content.src)) {	
+	alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
