@@ -86,13 +86,13 @@ main p{
     }
   @media only screen and (min-width: 601px){
         header{
-            width: 700px;
+            width: 600px;
 
         }
         main{
 
 	    margin-left: -100px !important;
-            width: 9500px;
+            width: 700px;
         }
         img{
             width: 250px !important;
