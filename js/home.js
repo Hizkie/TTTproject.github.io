@@ -1,8 +1,10 @@
 function removeFutureJs(){
 	var content = document.getElementById("Iframe");
 	if (content.contentWindow.document.getElementById("scriptid")) {
+		console.log("i remove the script");
 		content.contentWindow.document.getElementById("scriptid").remove();
 	}
+	console.log("i was called");
 }
 
 function startLoading() {	
