@@ -3,7 +3,8 @@ function removeFutureJs(){
 	if (content.contentWindow.document.getElementById("scriptid")) {
 		content.contentWindow.document.getElementById("scriptid").remove();
 	}
-	 
+}
+
 function startLoading() {	
                     var loading_style = "position:absolute;width:100%;height:100%";	
                     var loading_cover = document.getElementById("loading");
@@ -162,7 +163,7 @@ function change_css(item){
      /*theme.href = item
 	var form = content.contentWindow.document.getElementById('myForm');
 	document.getElementById("demo").innerHTML = form.innerText;*/
- }
+ 
 function add_script(item,script){
     	 /*var content = document.getElementById("Iframe");
 	var imported = document.createElement('script');
