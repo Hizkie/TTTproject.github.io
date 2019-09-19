@@ -125,12 +125,12 @@ main p{
     }
     @media only screen and (min-width: 1000px){
         header{
-            width: 1300px;
+            width: 1200px;
 
         }
         main{
 	    margin-left: -100px !important;
-            width: 1300px;
+            width: 1350px;
         }
         p {
             margin-top: 80px;
