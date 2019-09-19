@@ -138,7 +138,9 @@ function change_css(item){
 	//myReq.open('GET', href);
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
-	// after the requeste completed to the stuff down here
+	// after the requeste completed to the stuff down alert()
+	alert(href)
+	
 	
 	if (htmlPages.includes(content.src)) {	
      	        console.log("im change_css iv been called im gonna set css: " + item);
