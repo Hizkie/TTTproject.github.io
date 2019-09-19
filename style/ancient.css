@@ -5,7 +5,7 @@
 
 
   body{
-                border: 125px solid transparent;
+                border: 125px;
                 border-image-source: url('../images/left_border.png');
                 border-image-slice: 0 0 0 200; 
                 border-image-repeat: repeat;
@@ -14,16 +14,18 @@
             }
         
 p::first-letter {
-  font-size: 6rem;
-    font-family: 'Uncial Antiqua';
-    color: red;
-   line-height: 70px;
+  		font-size: 6rem;
+    		font-family: 'Uncial Antiqua';
+    		color: red;
+   		line-height: 70px;
 
-}
+		}
 img, figcaption{
-margin-left: 120px}
-header{
-margin-left: 0px}
+		margin-left: 120px
+		}
+header	{
+		margin-left: 0px
+	}
 
          h1{
                 font-family: Almendra SC;
@@ -61,9 +63,9 @@ main{
 
 main p{
 	border: 120px solid transparent;
-    padding-bottom: 50px;
-    margin-top: -100px;
-    border-image-source: url('../images/border.png');
+    	padding-bottom: 50px;
+    	margin-top: -100px;
+    	border-image-source: url('../images/border.png');
 	border-image-slice: 0 0 200 0; 
 	border-image-repeat: repeat;
 	font-size: 30px;
