@@ -166,12 +166,14 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+	
 }
 header{
 	width: 100%;
 	height: auto;
 	background-color: #2F87BF;
 	color: white;
+	opacity: 0.8;
 }
 
 .btn-primary {
