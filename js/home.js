@@ -131,7 +131,6 @@ function change_css(item){
 			 'https://tttproject.github.io/docs/Eu_directive/eu_directive.html',
 	];
 	loadingPages();
-	removeFutureJs();
 	var content = document.getElementById("Iframe");
 	let href = content.src; // uri of original file 
 	
