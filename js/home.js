@@ -157,7 +157,7 @@ function change_css(item){
 		console.log("IM EXITING FROM change_css, called when no html is loaded");
 	}
 	 
-	 
+}	 
 	 
      /*theme.href = item
 	var form = content.contentWindow.document.getElementById('myForm');
@@ -170,7 +170,7 @@ function add_script(item,script){
 	content.contentWindow.document.head.appendChild(imported);*/
 	//loadingPages();
 	var content = document.getElementById("Iframe");
-	content.contentWindow.document.getElementById("style").setAttribute("href",item)
+	content.contentWindow.document.getElementById("style").setAttribute("href",item);
 	//	  	var ele = content.contentWindow.document.getElementById("scri").getAttribute("href"); // sec/IF00.html
 	//alert(ele)
      	//content.contentWindow.document.getElementById('scri').src = script
@@ -178,11 +178,9 @@ function add_script(item,script){
 	//alert(ele)
 		  
 		element = content.contentWindow.document.createElement("script"); 
-		element.src = '../../js/new.js' 
+		element.src = '../../js/new.js'; 
 		element.type = "text/javascript"; 
 		element.id = "scriptid"; 
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
 	  
 	  }
-  
-
