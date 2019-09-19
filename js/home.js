@@ -1,8 +1,7 @@
-function removeFuturElements() {
-		if (document.getElementById("Iframe") && document.getElementById("Iframe").contentWindow.document.getElementById("vid")) {
-		var doc = document.getElementById("Iframe").contentWindow.document.getElementById("vid");
-		doc.remove();
-		}
+function removeFutureJs(){
+	var content = document.getElementById("Iframe");
+	if (content.contentWindow.document.getElementById("scriptid")) {
+		content.contentWindow.document.getElementById("scriptid").remove();
 	}
 	 
 function startLoading() {	
@@ -93,7 +92,7 @@ function navbarChangeHtml(source) {
 function changeHtml(item, callback){
 		 console.log("im changeHtml() i start the transition calling loadingPages()");
 		 loadingPages();  //start loading
-		 removeFuturElements();	//refresh page stuff 
+		 removeFutureJs();//refresh page stuff 
 		 
 		 var currentHtml = document.getElementById("Iframe");
 		 
@@ -129,8 +128,8 @@ function change_css(item){
 			 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html',
 			 'https://tttproject.github.io/docs/Eu_directive/eu_directive.html',
 	];
-	loadingPages();	
-	removeFuturElements();
+	loadingPages();
+	removeFutureJs();
 	var content = document.getElementById("Iframe"); 	
 	if (htmlPages.includes(content.src)) {	
      	        console.log("im change_css iv been called im gonna set css: " + item);
@@ -186,3 +185,4 @@ function add_script(item,script){
 	  
 	  }
   
+
