@@ -95,7 +95,6 @@ function navbarChangeHtml(source) {
 function changeHtml(item, callback){
 		 console.log("im changeHtml() i start the transition calling loadingPages()");
 		 loadingPages();  //start loading
-		 removeFutureJs();//refresh page stuff 
 		 
 		 var currentHtml = document.getElementById("Iframe");
 		 
@@ -134,8 +133,14 @@ function change_css(item){
 	loadingPages();
 	removeFutureJs();
 	var content = document.getElementById("Iframe");
-	let src = content.src; // uri of original file 
-	console.log(src);
+	let href = content.src; // uri of original file 
+	
+	content.src = href;
+	//myReq.open('GET', href);
+	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
+	// iframe.content = newcontent;
+	// after the requeste completed to the stuff down here
+	
 	if (htmlPages.includes(content.src)) {	
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
