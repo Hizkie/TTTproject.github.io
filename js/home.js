@@ -133,7 +133,9 @@ function change_css(item){
 	];
 	loadingPages();
 	removeFutureJs();
-	var content = document.getElementById("Iframe"); 	
+	var content = document.getElementById("Iframe");
+	let src = content.src; // uri of original file 
+	console.log(src);
 	if (htmlPages.includes(content.src)) {	
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
