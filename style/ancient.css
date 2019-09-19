@@ -10,7 +10,6 @@
 	        border-image-slice: 0 0 0 200; 
                 border-image-repeat: repeat;
                 background-color: #E7D1A2 !important;
-	  	margin-top: -100px;
             }
         
 p::first-letter {
