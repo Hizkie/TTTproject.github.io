@@ -1,5 +1,5 @@
 function removeFuturElements() {
-		if (document.getElementById("Iframe") !== null && document.getElementById("Iframe").contentWindow.document.getElementById("vid") !== null) {
+		if (document.getElementById("Iframe") && document.getElementById("Iframe").contentWindow.document.getElementById("vid")) {
 		var doc = document.getElementById("Iframe").contentWindow.document.getElementById("vid");
 		doc.remove();
 		}
