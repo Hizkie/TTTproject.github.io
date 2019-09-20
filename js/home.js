@@ -146,7 +146,7 @@ function change_css(item){
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
 		// change also the CONTENT IFRAME with myReq.content.
-	alert("req with status code complete: " + myReq.readyState);
+	//alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
