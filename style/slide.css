@@ -122,10 +122,8 @@ body{
                 height: 100%;
             }
             #vid{
-                color: black;
-                display: block;
-                width: 80%;
-                margin: auto;
+		margin: 0 auto;
+     		max-width: 700px;
             }
             #headerVd{
                 width: inherit;
