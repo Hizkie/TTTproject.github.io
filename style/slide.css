@@ -121,10 +121,7 @@ body{
                 color: #4CC3EB;
                 height: 100%;
             }
-            #vid{
-		margin: 0 auto;
-     		max-width: 700px;
-            }
+
             #headerVd{
                 width: inherit;
                 height: 50px;
@@ -165,98 +162,6 @@ body{
                 width: 50%;
                 height: 70%;
             }
-
-@media only screen and (max-width: 600px){
-#vid{
-    margin-top: 25%;
-	height: 400px;
-	width: 350px;
-	}
-	p{
-		font-size: 2px;
-	}
-#footerid{
-	height: 35px;
-   }
-#headerVd{
-	height: 35px;
-}
-.glyphicon{
-	font-size: 30px;
-}
-#bodyvid{
-	height:150px;		
-	font-size: 4px;
-
-	
-}
-}
-@media only screen and (min-width: 601px) {
-#vid{
-	margin-top: 10%;
-	height: 400px;
-	width: 500px;
-	}
-#footerid{
-	height: 45px;
-   }
-#headerVd{
-	height: 45px;
-}
-.glyphicon{
-	font-size: 35px;
-}
-#bodyvid{
-	height:300px;
-	font-size: 8px;
-
-}
-	}
-@media only screen and (min-width: 900px){
-#vid{
-	margin-top: 3%;
-	height: 400px;
-	width: 800px;
-	}
-#footerid{
-	height: 55px;
-   }
-#headerVd{
-	height: 55px;
-}
-.glyphicon{
-	font-size: 50px;
-}
-#bodyvid{
-	height:400px;
-	font-size: 10px;
-
-}
-	}
-@media only screen and (min-width: 1200px){
-#vid{
-	margin-top: 1%;
-	height: 400px;
-	width: 900px;
-	}
-#footerid{
-	height: 60px;
-   }
-#headerVd{
-	height: 60px;
-}
-.glyphicon{
-	font-size: 55px;
-}
-#bodyvid{
-	height:400px;
-	font-size: 12px;
-
-}}
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
 
 @-webkit-keyframes backgroundAnimate {
