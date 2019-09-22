@@ -156,6 +156,7 @@ function change_css(item){
 		//hi = content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		//hi = content.contentWindow.document.getElementById("style").setAttribute.href;
 		 // document.getElementById("Iframe").src = content.src;
+	var link = document.createElement('link'); 
 
         // set the attributes for link element  
        		 link.rel = 'stylesheet';  
