@@ -132,7 +132,7 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	var sr = content.src; // uri of original file 
+	//var sr = content.src; // uri of original file 
 
 
 	if (htmlPages.includes(content.src)) {	
