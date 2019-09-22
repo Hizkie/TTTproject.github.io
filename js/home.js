@@ -134,6 +134,7 @@ function change_css(item){
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
 	alert(sr)
+	document.getElementById("Iframe").src = sr;
 
 	
 	if (htmlPages.includes(content.src)) {	
@@ -150,11 +151,9 @@ function change_css(item){
 
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		document.getElementById("Iframe").src = sr;
 		var content = document.getElementById("Iframe");
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
-
-
+  
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
