@@ -123,6 +123,7 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 
 	   // Works with $.get too!
 function change_css(item){
+	alert(item)
 	var htmlPages = ['https://tttproject.github.io/docs/bloomberg/index.html',
 			 'https://tttproject.github.io/docs/harpers/Harpers_Final.html',
 			 'https://tttproject.github.io/docs/huffington/Huffington_Final.html',
