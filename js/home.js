@@ -134,7 +134,6 @@ function change_css(item){
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
 	alert(sr)
-	document.getElementById("Iframe").src = sr;
 
 	
 	if (htmlPages.includes(content.src)) {	
@@ -152,6 +151,8 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		var content = document.getElementById("Iframe");
+		document.getElementById("Iframe").src = sr;
+
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
   
 		console.log("im in the case not eudirective css must be changed");
@@ -162,7 +163,6 @@ function change_css(item){
 		var content_english = content.contentWindow.document.getElementById("left");
 		var content_italian = content.contentWindow.document.getElementById("right");
 		content_english.contentWindow.document.getElementById("style").setAttribute("href",item);
-		
 		content_italian.contentWindow.document.getElementById("style").setAttribute("href",item);
 	}
  
