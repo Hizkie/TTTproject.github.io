@@ -137,11 +137,11 @@ function change_css(item){
 
 	
 	if (htmlPages.includes(content.src)) {	
-		// AJAX REQUEST
-			//myReq = new XMLHttpRequest();	
+		AJAX REQUEST
+	myReq = new XMLHttpRequest();	
 	
-	//myReq.open('GET', href, false);
-	//myReq.send();
+	myReq.open('GET', href, false);
+	myReq.send();
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
