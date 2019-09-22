@@ -123,7 +123,6 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 
 	   // Works with $.get too!
 function change_css(item){
-	alert(item)
 	var htmlPages = ['https://tttproject.github.io/docs/bloomberg/index.html',
 			 'https://tttproject.github.io/docs/harpers/Harpers_Final.html',
 			 'https://tttproject.github.io/docs/huffington/Huffington_Final.html',
@@ -134,6 +133,7 @@ function change_css(item){
 	loadingPages();
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
+			alert("this is outside " + item)
 
 	
 	if (htmlPages.includes(content.src)) {	
@@ -151,7 +151,7 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		document.getElementById("Iframe").src = sr;
-		alert(item)
+		alert("this is " + item)
 
 		var content = document.getElementById("Iframe");
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
