@@ -134,7 +134,6 @@ function change_css(item){
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
 
-	$("#Iframe").attr("src",sr);
 
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
@@ -154,8 +153,10 @@ function change_css(item){
 		//alert(sr + item)
 		
 		//new_content = document.getElementById("Iframe")
-		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		hi = content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		hi = content.contentWindow.document.getElementById("style").setAttribute.href;
   		document.getElementById("Iframe").src = content.src;
+		content.contentWindow.document.getElementById("style") = hi;
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
