@@ -153,10 +153,16 @@ function change_css(item){
 		//alert(sr + item)
 		
 		//new_content = document.getElementById("Iframe")
-		hi = content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		hi = content.contentWindow.document.getElementById("style").setAttribute.href;
-  		document.getElementById("Iframe").src = content.src;
-		content.contentWindow.document.getElementById("style") = hi;
+		//hi = content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		//hi = content.contentWindow.document.getElementById("style").setAttribute.href;
+		 // document.getElementById("Iframe").src = content.src;
+
+		$("#Iframe").on("load", function() {
+  			let head = $("#Iframe").contents().find("head");
+  			let css = src;
+  			$(head).append(css);
+		});
+		//content.contentWindow.document.getElementById("style") = hi;
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
