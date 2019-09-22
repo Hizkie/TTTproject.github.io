@@ -148,11 +148,12 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		//document.getElementById("Iframe").src = sr;
-		//$("#Iframe").attr("src",sr);
+		$("#Iframe").attr("src",sr);
 		//alert(sr + item)
 
-		//var content = document.getElementById("Iframe");
-		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		var new_content = document.getElementById("Iframe");
+		alert(new_content.src)
+		new_content.contentWindow.document.getElementById("style").setAttribute("href",item);
   
 		console.log("im in the case not eudirective css must be changed");
 		} else {
