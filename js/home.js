@@ -149,7 +149,19 @@ function change_css(item){
 	//alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		//content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		        var link = content.contentWindow.document.createElement('link'); 
+  
+        // set the attributes for link element  
+        link.rel = 'stylesheet';  
+      
+        link.type = 'text/css'; 
+      
+        link.href = 'style.css';  
+  		   content.contentWindow.document.getElementsByTagName("head")[0].appendChild(link); 
+
+        // Append link element to HTML head 
+        head.appendChild(link); 
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
