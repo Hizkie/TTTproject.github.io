@@ -146,11 +146,12 @@ function change_css(item){
 	// after the requeste completed to the stuff down alert()
 		// change also the CONTENT IFRAME with myReq.content.
 	//alert("req with status code complete: " + myReq.readyState);
-			document.getElementById("Iframe").src = href
 
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+					document.getElementById("Iframe").src = 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html'
+
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
