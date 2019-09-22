@@ -152,6 +152,7 @@ function change_css(item){
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		document.getElementById("Iframe").src = sr;
 		var content = document.getElementById("Iframe");
+		alert(item)
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
   
 		console.log("im in the case not eudirective css must be changed");
