@@ -210,7 +210,7 @@ function add_script(item,script){
 		element.type = "text/javascript"; 
 		element.id = "scriptid"; 
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); */
-	
-	  content.contentWindow.document.getElementById("video").setAttribute("src",item);
+	  content.contentWindow.document.getElementById("ContentScript").src = '../../js/new.js';
+	  //content.contentWindow.document.getElementById("video").setAttribute("src",item);
 
 	  }
