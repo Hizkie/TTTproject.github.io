@@ -150,9 +150,8 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		document.getElementById("Iframe").src = 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html'
-
-		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		var content = document.getElementById("Iframe");
+		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 
 
 		console.log("im in the case not eudirective css must be changed");
