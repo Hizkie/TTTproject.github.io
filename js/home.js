@@ -155,7 +155,7 @@ function change_css(item){
 		
 		//new_content = document.getElementById("Iframe")
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		alert(content.contentWindow.document.getElementById("style").href)
+		$("#Iframe").attr("src",sr);
   
 		console.log("im in the case not eudirective css must be changed");
 		} else {
