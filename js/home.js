@@ -133,6 +133,8 @@ function change_css(item){
 	loadingPages();
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
+	$("#Iframe").attr("src",sr);
+
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
 			//myReq = new XMLHttpRequest();	1
@@ -148,13 +150,9 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		//document.getElementById("Iframe").src = sr;
-		$("#Iframe").attr("src",sr);
 		//alert(sr + item)
 
-		var new_content = document.getElementById("Iframe");
-		alert(new_content.src)
-		new_content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		alert(new_content.contentWindow.document.getElementById("style").href)
+		content.contentWindow.document.getElementById("style").setAttribute("href",item);
   
 		console.log("im in the case not eudirective css must be changed");
 		} else {
