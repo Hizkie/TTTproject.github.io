@@ -132,7 +132,7 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	//var sr = content.src; // uri of original file 
+	content.src = content.src; // uri of original file 
 
 
 	if (htmlPages.includes(content.src)) {	
@@ -163,6 +163,8 @@ function change_css(item){
        		 link.type = 'text/css'; 
       
        		 link.href = item;  
+	content.contentWindow.document.getElementsByTagName("head")[0].appendChild(link); 
+
   
         // Append link element to HTML head 
        
