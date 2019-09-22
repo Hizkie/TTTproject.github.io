@@ -197,7 +197,7 @@ function add_script(item,script){
 	/*imported.src = 'js/new.js';
 	content.contentWindow.document.head.appendChild(imported);*/
 	//loadingPages();
-	/*var content = document.getElementById("Iframe");
+	var content = document.getElementById("Iframe");
 	content.contentWindow.document.getElementById("style").setAttribute("href",item);
 	//	  	var ele = content.contentWindow.document.getElementById("scri").getAttribute("href"); // sec/IF00.html
 	//alert(ele)
@@ -209,8 +209,10 @@ function add_script(item,script){
 		element.src = '../../js/new.js'; 
 		element.type = "text/javascript"; 
 		element.id = "scriptid"; 
-		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); */
-	  content.contentWindow.document.getElementById("video").src = '../../js/new.js';
-	  //content.contentWindow.document.getElementById("video").setAttribute("src",item);
+		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
+	//  content.contentWindow.document.getElementById("video").src = '../../js/new.js';
+	 //content.contentWindow.document.getElementById("video").setAttribute("src",item);
+	$("script[src='../../js/new.js']").remove()
+
 
 	  }
