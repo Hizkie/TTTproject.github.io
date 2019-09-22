@@ -155,8 +155,7 @@ function change_css(item){
 		
 		//new_content = document.getElementById("Iframe")
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		$("#Iframe").attr("src",sr);
-  
+  		document.getElementById("Iframe").src = content.src;
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
