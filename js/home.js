@@ -148,8 +148,8 @@ function change_css(item){
 		// change also the CONTENT IFRAME with myReq.content.
 	//alert("req with status code complete: " + myReq.readyState);
 
-		var iframe_c = content.contentWindow.document.getElementById("Iframe");
-		content.contentWindow.document.getElementById("Iframe").src = href;
+		//var iframe_c = content.contentWindow.document.getElementById("Iframe");
+		//content.contentWindow.document.getElementById("Iframe").src = href;
 
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
