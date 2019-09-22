@@ -157,12 +157,15 @@ function change_css(item){
 		//hi = content.contentWindow.document.getElementById("style").setAttribute.href;
 		 // document.getElementById("Iframe").src = content.src;
 
-		$("#Iframe").on("load", function() {
-  			let head = $("#Iframe").contents().find("head");
-  			let css = item;
-  			$(head).append(css);
-		});
-		//content.contentWindow.document.getElementById("style") = hi;
+        // set the attributes for link element  
+       		 link.rel = 'stylesheet';  
+      
+       		 link.type = 'text/css'; 
+      
+       		 link.href = item;  
+  
+        // Append link element to HTML head 
+       
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
