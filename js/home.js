@@ -158,6 +158,7 @@ function change_css(item){
         link.type = 'text/css'; 
       
         link.href = item;
+	alert(link.href)
   		   content.contentWindow.document.getElementsByTagName("head")[0].appendChild(link); 
 
         // Append link element to HTML head 
