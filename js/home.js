@@ -133,9 +133,6 @@ function change_css(item){
 	loadingPages();
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
-			alert("this is outside " + item)
-
-	
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
 			//myReq = new XMLHttpRequest();	1
