@@ -132,7 +132,7 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	var href = content.src; // uri of original file 
+	var sr = content.src; // uri of original file 
 	
 	
 	if (htmlPages.includes(content.src)) {	
@@ -149,7 +149,7 @@ function change_css(item){
 
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		document.getElementById("Iframe").src = 'https://tttproject.github.io/docs/tls/TimesLiterarySupplement_Final.html'
+		document.getElementById("Iframe").src = sr;
 		var content = document.getElementById("Iframe");
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 
