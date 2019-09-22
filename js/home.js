@@ -140,13 +140,15 @@ function change_css(item){
 		// AJAX REQUEST
 			myReq = new XMLHttpRequest();	
 	
-	myReq.open('GET', href, false);
-	myReq.send();
+	//myReq.open('GET', href, false);
+	//myReq.send();
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
 		// change also the CONTENT IFRAME with myReq.content.
 	//alert("req with status code complete: " + myReq.readyState);
+		var iframe_c = content.contentWindow.document.getElementById("Iframe");
+		iframe_c.src=href
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
