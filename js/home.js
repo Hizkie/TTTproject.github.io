@@ -133,7 +133,8 @@ function change_css(item){
 	loadingPages();
 	var content = document.getElementById("Iframe");
 	var sr = content.src; // uri of original file 
-	
+	alert(sr)
+
 	
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
@@ -150,7 +151,6 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		document.getElementById("Iframe").src = sr;
-			alert(sr)
 		var content = document.getElementById("Iframe");
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 
