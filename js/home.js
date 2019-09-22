@@ -132,43 +132,24 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	//content.src = content.src; // uri of original file 
+	var href = content.src; // uri of original file 
+	
 
-
+	
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
-			//myReq = new XMLHttpRequest();	1
+			myReq = new XMLHttpRequest();	
 	
-	//myReq.open('GET', href, false);2
-	//myReq.send(); 3
+	myReq.open('GET', href, false);
+	myReq.send();
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
 		// change also the CONTENT IFRAME with myReq.content.
 	//alert("req with status code complete: " + myReq.readyState);
-
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		//document.getElementById("Iframe").src = sr;
-		//alert(sr + item)
-		
-		//new_content = document.getElementById("Iframe")
-		//hi = content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		//hi = content.contentWindow.document.getElementById("style").setAttribute.href;
-		 // document.getElementById("Iframe").src = content.src;
-	var link = document.createElement('link'); 
-
-        // set the attributes for link element  
-       		 link.rel = 'stylesheet';  
-      
-       		 link.type = 'text/css'; 
-      
-       		 link.href = item;  
-	content.contentWindow.document.getElementsByTagName("head")[0].appendChild(link); 
-
-  
-        // Append link element to HTML head 
-       
+		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
@@ -177,6 +158,7 @@ function change_css(item){
 		var content_english = content.contentWindow.document.getElementById("left");
 		var content_italian = content.contentWindow.document.getElementById("right");
 		content_english.contentWindow.document.getElementById("style").setAttribute("href",item);
+		
 		content_italian.contentWindow.document.getElementById("style").setAttribute("href",item);
 	}
  
