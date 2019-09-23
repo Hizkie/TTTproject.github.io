@@ -212,7 +212,6 @@ function add_script(item,script){
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
 	//  content.contentWindow.document.getElementById("video").src = '../../js/new.js';
 	 //content.contentWindow.document.getElementById("video").setAttribute("src",item);
-	$("script[src='../../js/new.js']").remove()
 
 
 	  }
