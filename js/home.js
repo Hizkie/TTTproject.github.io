@@ -132,16 +132,16 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	var href = content.src; // uri of original file 
+	var hrf = content.src; // uri of original file 
 	
 
 	
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
-			myReq = new XMLHttpRequest();	
+			//myReq = new XMLHttpRequest();	
 	
-	myReq.open('GET', href, false);
-	myReq.send();
+	//myReq.open('GET', href, false);
+	//myReq.send();
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
@@ -149,7 +149,9 @@ function change_css(item){
 	//alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		content = hrf
+		content.contentWindow.document.styleSheets[3].href = item;
+		//content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		       // var link = content.contentWindow.document.createElement('link'); 
   
         // set the attributes for link element  
