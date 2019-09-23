@@ -151,7 +151,7 @@ function change_css(item){
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		var content = document.getElementById("Iframe");
 		content.contentWindow.document.styleSheets[3].href = item;
-	        content.src = hrf
+	        content.src = content.src
 
 		content = ""
 		hrf = ""
