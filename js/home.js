@@ -149,7 +149,9 @@ function change_css(item){
 	//alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		document.getElementById("Iframe").src = href
+		document.getElementById("Iframe").src = href;
+		new = document.getElementById("Iframe");
+		content.contentWindow.document.styleSheets[3].href = item;
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		       // var link = content.contentWindow.document.createElement('link'); 
   
@@ -213,6 +215,5 @@ function add_script(item,script){
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
 	//  content.contentWindow.document.getElementById("video").src = '../../js/new.js';
 	 //content.contentWindow.document.getElementById("video").setAttribute("src",item);
-
-
+ 
 	  }
