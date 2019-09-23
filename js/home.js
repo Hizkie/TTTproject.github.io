@@ -149,8 +149,9 @@ function change_css(item){
 	//alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		content = hrf
-		content.contentWindow.document.styleSheets[3].href = item;
+		new_content = document.getElementById("Iframe");
+		new_content.src = hrf
+		new_content.contentWindow.document.styleSheets[3].href = item;
 		content = ""
 		hrf = ""
 		//content.contentWindow.document.getElementById("style").setAttribute("href",item);
