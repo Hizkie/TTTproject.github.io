@@ -152,7 +152,7 @@ function change_css(item){
 		//var content = document.getElementById("Iframe");
 		content.src = content.src
 
-		content.contentWindow.document.styleSheets[3].href = item;
+		content.contentWindow.document.getElementById("style").setAttribute("href",item);
 
 		content = ""
 		hrf = ""
