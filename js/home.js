@@ -151,6 +151,8 @@ function change_css(item){
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		content = hrf
 		content.contentWindow.document.styleSheets[3].href = item;
+		content = ""
+		hrf = ""
 		//content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		       // var link = content.contentWindow.document.createElement('link'); 
   
