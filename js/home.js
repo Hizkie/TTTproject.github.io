@@ -150,8 +150,9 @@ function change_css(item){
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		var content = document.getElementById("Iframe");
-		content.src = hrf
 		content.contentWindow.document.styleSheets[3].href = item;
+	        content.src = hrf
+
 		content = ""
 		hrf = ""
 		
