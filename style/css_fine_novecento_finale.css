@@ -87,7 +87,8 @@ font-family: 'Dancing Script', cursive;
   -webkit-text-stroke-color: black;
   letter-spacing: -4;
   text-align: center;
-	background-color: lightblue;
+	background-color: white;
+	border-radius: 20px;
 }
 
 h3 {
