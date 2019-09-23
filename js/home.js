@@ -151,8 +151,8 @@ function change_css(item){
 		if (content.contentWindow.document.getElementById("style") !== null) {
 		document.getElementById("Iframe").src = href;
 		new = document.getElementById("Iframe");
-		content.contentWindow.document.styleSheets[3].href = item;
-		content.contentWindow.document.getElementById("style").setAttribute("href",item);
+		new.contentWindow.document.styleSheets[3].href = item;
+		//content.contentWindow.document.getElementById("style").setAttribute("href",item);
 		       // var link = content.contentWindow.document.createElement('link'); 
   
         // set the attributes for link element  
