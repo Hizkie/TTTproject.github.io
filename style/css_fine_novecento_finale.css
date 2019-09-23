@@ -848,6 +848,9 @@ color: purple;}
 	
 	header
 	{
+		border-radius: 50px;
+		margin-bottom: 30px;
+		background-color:lightblue;
 	height:  1100px;
 }
 	
