@@ -49,6 +49,11 @@ display: block;
   margin-right: auto;
 }
 
+.secondary {
+	width: 60%;
+	heght: auto;
+}
+
 .main p:nth-of-type(2){
 	-moz-column-count: 2;
 	-moz-column-gap: 20px;
