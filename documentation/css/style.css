@@ -24,6 +24,10 @@
 	background: #f0f0f0 url(../images/cream_dust.jpg);
 }
 
+div.style-comment{
+	column-count: 2;
+}
+
 .main {
 	width: 100%;
 	max-width: 960px;
