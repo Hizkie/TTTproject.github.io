@@ -132,16 +132,16 @@ function change_css(item){
 	];
 	loadingPages();
 	var content = document.getElementById("Iframe");
-	var hrf = content.src; // uri of original file 
+	var href = content.src; // uri of original file 
 	
 
 	
 	if (htmlPages.includes(content.src)) {	
 		// AJAX REQUEST
-			//myReq = new XMLHttpRequest();	
+			myReq = new XMLHttpRequest();	
 	
-	//myReq.open('GET', href, false);
-	//myReq.send();
+	myReq.open('GET', href, false);
+	myReq.send();
 	// AJAX REQUEST TO GET AGAIN THE CONTENT: newcontent
 	// iframe.content = newcontent;
 	// after the requeste completed to the stuff down alert()
@@ -149,28 +149,7 @@ function change_css(item){
 	//alert("req with status code complete: " + myReq.readyState);
      	        console.log("im change_css iv been called im gonna set css: " + item);
 		if (content.contentWindow.document.getElementById("style") !== null) {
-		//var content = document.getElementById("Iframe");
-		content.src = content.src
-
 		content.contentWindow.document.getElementById("style").setAttribute("href",item);
-
-		content = ""
-		hrf = ""
-		
-		//content.contentWindow.document.getElementById("style").setAttribute("href",item);
-		       // var link = content.contentWindow.document.createElement('link'); 
-  
-        // set the attributes for link element  
-        /*link.rel = 'stylesheet';  
-      
-        link.type = 'text/css'; 
-      
-        link.href = item;
-	alert(link.href) */
-        //content.contentWindow.document.getElementsByTagName("head")[0].appendChild(link); 
-
-        // Append link element to HTML head 
-       // head.appendChild(link); 
 		console.log("im in the case not eudirective css must be changed");
 		} else {
 			console.log("im change_css if im here it must be called eu_directive else there is an error");
@@ -200,9 +179,9 @@ function change_css(item){
 	document.getElementById("demo").innerHTML = form.innerText;*/
  
 function add_script(item,script){
-    	var content = document.getElementById("Iframe");
+    	 /*var content = document.getElementById("Iframe");
 	var imported = document.createElement('script');
-	/*imported.src = 'js/new.js';
+	imported.src = 'js/new.js';
 	content.contentWindow.document.head.appendChild(imported);*/
 	//loadingPages();
 	var content = document.getElementById("Iframe");
@@ -218,8 +197,5 @@ function add_script(item,script){
 		element.type = "text/javascript"; 
 		element.id = "scriptid"; 
 		content.contentWindow.document.getElementsByTagName("head")[0].appendChild(element); 
-	//  content.contentWindow.document.getElementById("video").src = '../../js/new.js';
-	 //content.contentWindow.document.getElementById("video").setAttribute("src",item);
-
-
+	  
 	  }
