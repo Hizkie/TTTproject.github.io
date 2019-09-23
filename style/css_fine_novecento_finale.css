@@ -69,6 +69,7 @@ h1 {
   -webkit-text-stroke-color: black;
   letter-spacing: -5;
   text-align: center;
+transform: rotate(-15deg);
 }
 
 h1::first-letter {
@@ -86,6 +87,7 @@ font-family: 'Dancing Script', cursive;
   -webkit-text-stroke-color: black;
   letter-spacing: -4;
   text-align: center;
+	background-color: lightblue;
 }
 
 h3 {
@@ -98,6 +100,7 @@ font-family: 'Pacifico', cursive;
   text-align: center;
   background-color: yellow;
   z-index: -1;
+	background-color: orange;
 }
 h4 {	line-height: 0.9em;
 
