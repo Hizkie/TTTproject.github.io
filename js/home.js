@@ -123,6 +123,7 @@ console.log("Im EXITING FROM RANDOM CHANGE HTML");
 
 	   // Works with $.get too!
 function change_css(item){
+	
 	var htmlPages = ['https://tttproject.github.io/docs/bloomberg/index.html',
 			 'https://tttproject.github.io/docs/harpers/Harpers_Final.html',
 			 'https://tttproject.github.io/docs/huffington/Huffington_Final.html',
@@ -131,9 +132,13 @@ function change_css(item){
 			 'https://tttproject.github.io/docs/Eu_directive/eu_directive.html',
 	];
 	loadingPages();
+	
+	
 	var content = document.getElementById("Iframe");
 	var href = content.src; // uri of original file 
-	
+	if (content.contentWindow.document.getElementById("vid")!=NULL){
+		alert("hi")
+	}
 
 	
 	if (htmlPages.includes(content.src)) {	
